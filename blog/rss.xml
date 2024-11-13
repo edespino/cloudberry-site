@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Apache Cloudberry (Incubating) is one advanced and mature open-source MPP (Massively Parallel Processing) databases available.</title>
+        <link>https://cloudberry.apache.org/blog</link>
+        <description>Apache Cloudberry (Incubating) Blog</description>
+        <lastBuildDate>Fri, 11 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[September 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/september-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/september-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Fri, 11 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://github.com/orgs/cloudberrydb/discussions/662">here</a></span>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[August 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/august-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/august-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Fri, 20 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Highlights]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="https://cloudberry.apache.org/blog/august-2024-cloudberrydb-community-newsletter#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h2>
+<ul>
+<li>New Release</li>
+<li>Pull Requests</li>
+<li>Issues</li>
+<li>GitHub Discussions</li>
+<li>Website</li>
+<li>New tool for Cloudberry Database</li>
+<li>Blog</li>
+</ul>
+<hr>
+<!-- -->
+<!-- -->
+<span>Redirecting... please wait!! <!-- -->or click <a href="https://github.com/orgs/cloudberrydb/discussions/626">here</a></span>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[Cloudberry's Journey: From Greenplum Fork to Apache Proposal]]></title>
+            <link>https://cloudberry.apache.org/blog/cloudberry-journey-from-greenplum-fork-apache-proposal</link>
+            <guid>https://cloudberry.apache.org/blog/cloudberry-journey-from-greenplum-fork-apache-proposal</guid>
+            <pubDate>Fri, 20 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the dynamic world of database technologies, Cloudberry has emerged as a notable project with an intriguing trajectory. Originally forked from the Greenplum Database project, Cloudberry is now charting its own course toward the Apache Software Foundation.]]></description>
+            <content:encoded><![CDATA[<p>In the dynamic world of database technologies, Cloudberry has emerged as a notable project with an intriguing trajectory. Originally forked from the Greenplum Database project, Cloudberry is now charting its own course toward the Apache Software Foundation.</p>
+<!-- -->
+<!-- -->
+<span>Redirecting... please wait!! <!-- -->or click <a href="https://www.linkedin.com/pulse/cloudberrys-journey-from-greenplum-fork-apache-proposal-ed-espino-b5ckc/">here</a></span>]]></content:encoded>
+            <category>Blog</category>
+        </item>
+        <item>
+            <title><![CDATA[July 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[❤️ Cloudberry Database? Giving it a ⭐ on the cloudberrydb/cloudberrydb repo!]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>❤️ Cloudberry Database? Giving it a ⭐ on the <a href="https://github.com/cloudberrydb/cloudberrydb" target="_blank" rel="noopener noreferrer">cloudberrydb/cloudberrydb</a> repo!</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>Use syscache lookup in ShouldUseReservedSegno <a href="https://github.com/cloudberrydb/cloudberrydb/pull/541" target="_blank" rel="noopener noreferrer">#541</a> by @gongxun0928</li>
+<li>Update aocsam.c: fix safeFSWriteSize arg type <a href="https://github.com/cloudberrydb/cloudberrydb/pull/540" target="_blank" rel="noopener noreferrer">#540</a> by @reshke</li>
+<li>[DNM]Enable the resgroup test cases <a href="https://github.com/cloudberrydb/cloudberrydb/pull/539" target="_blank" rel="noopener noreferrer">#539</a> by @jiaqizho</li>
+<li>adjust test cases for the cloudberrydb binary swap test <a href="https://github.com/cloudberrydb/cloudberrydb/pull/537" target="_blank" rel="noopener noreferrer">#537</a> by @congxuebin</li>
+<li>Add an option in psql to avoid encoding issues on some platforms <a href="https://github.com/cloudberrydb/cloudberrydb/pull/535" target="_blank" rel="noopener noreferrer">#535</a> by @gfphoenix78</li>
+<li>Small README.md improvement. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/534" target="_blank" rel="noopener noreferrer">#534</a> by @reshke</li>
+<li>Support copy from directory table for entry distribution policy. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/533" target="_blank" rel="noopener noreferrer">#533</a> by @wenchaozhang-123</li>
+<li>Cherry-pick Resgroup V2 and toolkit from GPDB <a href="https://github.com/cloudberrydb/cloudberrydb/pull/531" target="_blank" rel="noopener noreferrer">#531</a> by @jiaqizho</li>
+<li>Fix segfilecount of AO/AOCO when bulk insertion: COPY <a href="https://github.com/cloudberrydb/cloudberrydb/pull/530" target="_blank" rel="noopener noreferrer">#530</a> by @avamingli</li>
+<li>[AQUMV]Allow to use normal materialized views to answer query. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/528" target="_blank" rel="noopener noreferrer">#528</a> by @avamingli</li>
+<li>Reimplement copy from directory table. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/527" target="_blank" rel="noopener noreferrer">#527</a> by @wenchaozhang-123</li>
+<li>[Answer Query Using Materialized Views] Refactor view query target list process. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/525" target="_blank" rel="noopener noreferrer">#525</a> by @avamingli</li>
+<li>Feature: Update orafce to 4.9 and enhance it <a href="https://github.com/cloudberrydb/cloudberrydb/pull/524" target="_blank" rel="noopener noreferrer">#524</a> by @foreyes</li>
+<li>Doc: list more tools for Cloudberry Database <a href="https://github.com/cloudberrydb/cloudberrydb/pull/523" target="_blank" rel="noopener noreferrer">#523</a> by @tuhaihe</li>
+<li>Fix copy to directory table always return 1. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/522" target="_blank" rel="noopener noreferrer">#522</a> by @wenchaozhang-123</li>
+<li>make gp_dqa test case stable <a href="https://github.com/cloudberrydb/cloudberrydb/pull/521" target="_blank" rel="noopener noreferrer">#521</a> by @congxuebin</li>
+<li>Reduce flakiness in test fts_segment_reset <a href="https://github.com/cloudberrydb/cloudberrydb/pull/518" target="_blank" rel="noopener noreferrer">#518</a> by @jiaqizho</li>
+<li>Add materialized view relative triggers case in SingleNode mode. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/517" target="_blank" rel="noopener noreferrer">#517</a> by @avamingli</li>
+<li>Ignore pg_upgrade to make CI happy. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/515" target="_blank" rel="noopener noreferrer">#515</a> by @avamingli</li>
+<li>Define EXT_OID_START to suggest oid range for extensions. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/514" target="_blank" rel="noopener noreferrer">#514</a> by @avamingli</li>
+<li>Add multiple operating system source code to compile CBDB <a href="https://github.com/cloudberrydb/cloudberrydb/pull/512" target="_blank" rel="noopener noreferrer">#512</a> by @Zhangbaowen-Hashdata</li>
+<li>Fix compile error in c++20 <a href="https://github.com/cloudberrydb/cloudberrydb/pull/510" target="_blank" rel="noopener noreferrer">#510</a> by @gfphoenix78</li>
+<li>Fix bsearch compare function in guc.c <a href="https://github.com/cloudberrydb/cloudberrydb/pull/507" target="_blank" rel="noopener noreferrer">#507</a> by @gfphoenix78</li>
+<li>Refactor cbdb_log to use vfprintf <a href="https://github.com/cloudberrydb/cloudberrydb/pull/506" target="_blank" rel="noopener noreferrer">#506</a> by @ruhuang2001</li>
+<li>[Unstable cases]Fix Some commands forgot to mark meta track. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/505" target="_blank" rel="noopener noreferrer">#505</a> by @avamingli</li>
+<li>Fix compile errors detected by gcc 12 <a href="https://github.com/cloudberrydb/cloudberrydb/pull/503" target="_blank" rel="noopener noreferrer">#503</a> by @gfphoenix78</li>
+<li>Fix ignore of direct table test files. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/502" target="_blank" rel="noopener noreferrer">#502</a> by @avamingli</li>
+<li>Maintain materialized view data status. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/501" target="_blank" rel="noopener noreferrer">#501</a> by @avamingli</li>
+<li>Add LoongArch(loongarch64) support to s_lock.h <a href="https://github.com/cloudberrydb/cloudberrydb/pull/500" target="_blank" rel="noopener noreferrer">#500</a> by @wangzw</li>
+<li>cherry-pick: Work around spurious compiler warning in inet operators <a href="https://github.com/cloudberrydb/cloudberrydb/pull/499" target="_blank" rel="noopener noreferrer">#499</a> by @gfphoenix78</li>
+<li>Fix copy to replicated table display copy number is incorrect. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/498" target="_blank" rel="noopener noreferrer">#498</a> by @gfphoenix78</li>
+<li>Fix cbdb ci not running properly <a href="https://github.com/cloudberrydb/cloudberrydb/pull/497" target="_blank" rel="noopener noreferrer">#497</a> by @Zhangbaowen-Hashdata</li>
+<li>Fix the correct size of memory block in bitmapinsert <a href="https://github.com/cloudberrydb/cloudberrydb/pull/495" target="_blank" rel="noopener noreferrer">#495</a> by @gfphoenix78</li>
+<li>change AOCO_Compression test case to validate pg_relation_size and get_ao_compression_ratio within ±10% expected range  <a href="https://github.com/cloudberrydb/cloudberrydb/pull/493" target="_blank" rel="noopener noreferrer">#493</a> by @congxuebin</li>
+<li>Resolve inconsistent result issue in gpdtm_plpgsql test case <a href="https://github.com/cloudberrydb/cloudberrydb/pull/491" target="_blank" rel="noopener noreferrer">#491</a> by @congxuebin</li>
+<li>Fix gpinitsystem <a href="https://github.com/cloudberrydb/cloudberrydb/pull/490" target="_blank" rel="noopener noreferrer">#490</a> by @fanfuxiaoran</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>Lack of track IO timing gpdb feature <a href="https://github.com/cloudberrydb/cloudberrydb/issues/536" target="_blank" rel="noopener noreferrer">#536</a> by @reshke</li>
+<li>[Bug] AO tables didn't switch seg file when bulk insertion: COPY <a href="https://github.com/cloudberrydb/cloudberrydb/issues/529" target="_blank" rel="noopener noreferrer">#529</a> by @avamingli</li>
+<li>[Feature] Give a easy start-guide for a new contributor, such as script(singe node deploy) <a href="https://github.com/cloudberrydb/cloudberrydb/issues/519" target="_blank" rel="noopener noreferrer">#519</a> by @lilei1128</li>
+<li>[Bug]  <code>configure</code>  development script generates an 'sh' shell error due to an initialized variable (ac_cv_func_fseeko) <a href="https://github.com/cloudberrydb/cloudberrydb/issues/516" target="_blank" rel="noopener noreferrer">#516</a> by @edespino</li>
+<li>[Bug] starting new instance failed in certain case <a href="https://github.com/cloudberrydb/cloudberrydb/issues/511" target="_blank" rel="noopener noreferrer">#511</a> by @congxuebin</li>
+<li>[Bug] [oe2309] unexpected execution of aborted due to compilation errors <a href="https://github.com/cloudberrydb/cloudberrydb/issues/509" target="_blank" rel="noopener noreferrer">#509</a> by @congxuebin</li>
+<li>[Bug] [oe2309] server terminated abnormally when call plpython procedure <a href="https://github.com/cloudberrydb/cloudberrydb/issues/508" target="_blank" rel="noopener noreferrer">#508</a> by @congxuebin</li>
+<li>[Bug] Some commands forgot to mark meta track calls unstable failed cases. <a href="https://github.com/cloudberrydb/cloudberrydb/issues/504" target="_blank" rel="noopener noreferrer">#504</a> by @avamingli</li>
+<li>[Bug] Build failed with gcc 12 on openEuler 24.03 <a href="https://github.com/cloudberrydb/cloudberrydb/issues/494" target="_blank" rel="noopener noreferrer">#494</a> by @wangzw</li>
+<li>[Bug] perl ssl test failed against centos 9 operating system <a href="https://github.com/cloudberrydb/cloudberrydb/issues/492" target="_blank" rel="noopener noreferrer">#492</a> by @congxuebin</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bootcamp-for-cloudberry-database">Bootcamp for Cloudberry Database<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#bootcamp-for-cloudberry-database" class="hash-link" aria-label="Direct link to Bootcamp for Cloudberry Database" title="Direct link to Bootcamp for Cloudberry Database">​</a></h2>
+<p>In July, the Bootcamp program was updated with lots of improvements, and now supports the latest Cloudberry Database release v1.5.4.</p>
+<p>Welcome to try it out:  <a href="https://github.com/cloudberrydb/bootcamp" target="_blank" rel="noopener noreferrer">https://github.com/cloudberrydb/bootcamp</a>.</p>
+<p>Thanks to @edespino, @tuhaihe, and @shawn0915 for making their contributions this month!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="events">Events<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#events" class="hash-link" aria-label="Direct link to Events" title="Direct link to Events">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudberry-database-meetup--beijing">Cloudberry Database Meetup @ Beijing<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#cloudberry-database-meetup--beijing" class="hash-link" aria-label="Direct link to Cloudberry Database Meetup @ Beijing" title="Direct link to Cloudberry Database Meetup @ Beijing">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="Cloudberry Database Meetup@Beijing 2024" src="https://cloudberry.apache.org/assets/images/Cloudberry-Meetup@Beijing-520cd791f75f9cbc4abacb539aa0e02b.png" width="1043" height="587" class="img_ev3q"></p>
+<p>🍺 Our first-ever in-person Cloudberry Database Meetup in Beijing 2024 was successfully organized. Welcome to take a look at our review blog for details:  <a href="https://www.linkedin.com/pulse/first-ever-in-person-cloudberry-database-meetup-beijing-2024-h3ssc" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/pulse/first-ever-in-person-cloudberry-database-meetup-beijing-2024-h3ssc</a>.</p>
+<p>🌍 Looking forward to more Cloudberry Meetups in more cities around the world!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="communityovercode-asia-2024">CommunityOverCode Asia 2024<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#communityovercode-asia-2024" class="hash-link" aria-label="Direct link to CommunityOverCode Asia 2024" title="Direct link to CommunityOverCode Asia 2024">​</a></h3>
+<p>CommunityOverCode (formerly known as ApacheCon) is the official global conference series of The Apache Software Foundation (ASF). This year,  <a href="https://asia.communityovercode.org/index.html" target="_blank" rel="noopener noreferrer">CommunityOverCode Asia 2024</a>  was held in Hangzhou from July 26 to 28，2024.</p>
+<p><img decoding="async" loading="lazy" alt="CommunityOverCode Asia 2024" src="https://cloudberry.apache.org/assets/images/ApacheCon-1-e6064f31d4c5068f5bdddc6918d9d43d.jpg" width="1000" height="665" class="img_ev3q"></p>
+<p>Dianjin Wang <a href="https://github.com/tuhaihe" target="_blank" rel="noopener noreferrer">@tuhaihe</a>, our community manager, took care of the OLAP &amp; Analytics track this year and also gave a talk on the story of Cloudberry Database open source, sharing the lessons learned in its open-source incubation from scratch.</p>
+<p><img decoding="async" loading="lazy" alt="CommunityOverCode Asia 2024" src="https://cloudberry.apache.org/assets/images/ApacheCon-2-dd141d43c85a6501567ddfa1f7acce22.jpg" width="1000" height="666" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="listed-on-github-trending---c">Listed on GitHub Trending - C<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#listed-on-github-trending---c" class="hash-link" aria-label="Direct link to Listed on GitHub Trending - C" title="Direct link to Listed on GitHub Trending - C">​</a></h2>
+<p>🎉 Cloudberry Database was listed again on the GitHub trending list for a few days this month!</p>
+<p><img decoding="async" loading="lazy" alt="CommunityOverCode Asia 2024" src="https://cloudberry.apache.org/assets/images/GitHub-Trending-Cloudberry-ef5459ebd2a59380327415dabfc7a64c.png" width="1280" height="800" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="more">More<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#more" class="hash-link" aria-label="Direct link to More" title="Direct link to More">​</a></h2>
+<ul>
+<li>
+<p>Hosting Cloudberry Database under the third-party Foundations</p>
+<p>Since last month, we have been contacting original Greenplum vendors and contribution teams. Some of them have agreed to take the Cloudberry Database to the Apache Software Foundation incubator together. The incubation proposal is still in progress. Looking forward to sharing more in the following weeks.</p>
+</li>
+<li>
+<p>New Release</p>
+<p>@edespino is working on the new release, let's wait for it! Coming soon.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/july-2024-cloudberrydb-community-newsletter#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our  <a href="https://cloudberrydb.org/contribute" target="_blank" rel="noopener noreferrer">contribution guide</a>  is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find  <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support</a>  here. Let us know if you have any questions or feedback - we're always here to help!</p>
+<p>Join us and be part of our community!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[June 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[❤️ Cloudberry Database? Giving it a ⭐ on the cloudberrydb/cloudberrydb repo!]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>❤️ Cloudberry Database? Giving it a ⭐ on the <a href="https://github.com/cloudberrydb/cloudberrydb" target="_blank" rel="noopener noreferrer">cloudberrydb/cloudberrydb</a> repo!</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-release-154">New Release 1.5.4<a href="https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter#new-release-154" class="hash-link" aria-label="Direct link to New Release 1.5.4" title="Direct link to New Release 1.5.4">​</a></h2>
+<p>Cloudberry Database <a href="https://github.com/cloudberrydb/cloudberrydb/releases/tag/1.5.4" target="_blank" rel="noopener noreferrer">v1.5.4</a> was released with a few improvements and bug fixes. You can see the full changelog here: <a href="https://github.com/cloudberrydb/cloudberrydb/compare/1.5.3...1.5.4" target="_blank" rel="noopener noreferrer">1.5.3...1.5.4</a>.</p>
+<p>🎈️🎊️ Thanks to all the contributors to make this release happen:</p>
+<blockquote>
+<p>@higuoxing, @tuhaihe, @August-beaulo, @avamingli, @piyushc01, @red1452, @edespino, @jnihal, @Annu149, @jiaqizho, @wenchaozhang-123, @dgkimura, @fanfuxiaoran, @gfphoenix78, @HelloYJohn, @adam8157, @xiaoxiaoHe-E, @InnerLife0, @wuyuhao28, @l-wang, @lij55, @huansong, @chrishajas, @tglsfdc, @fairyfar, @kainwen, @nmisch, @my-ship-it</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ecosystem">Ecosystem<a href="https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter#ecosystem" class="hash-link" aria-label="Direct link to Ecosystem" title="Direct link to Ecosystem">​</a></h2>
+<p>More tools for Cloudberry Database are public this month, including:</p>
+<ul>
+<li>MADlib for Cloudberry Database: <a href="https://github.com/cloudberrydb/madlib" target="_blank" rel="noopener noreferrer">@cloudberrydb/madlib</a></li>
+<li>PL/Java for Cloudberry Database: <a href="https://github.com/cloudberrydb/pljava" target="_blank" rel="noopener noreferrer">@cloudberrydb/pljava</a></li>
+<li>PL/R for Cloudberry Database: <a href="https://github.com/cloudberrydb/plr" target="_blank" rel="noopener noreferrer">@cloudberrydb/plr</a></li>
+<li>PXF for Cloudberry Database: <a href="https://github.com/cloudberrydb/pxf" target="_blank" rel="noopener noreferrer">@cloudberrydb/pxf</a></li>
+<li>Filedum for Cloudberry Database: <a href="https://github.com/cloudberrydb/filedump" target="_blank" rel="noopener noreferrer">@cloudberrydb/filedump</a></li>
+<li>gpbackup-s3-plugin: <a href="https://github.com/cloudberrydb/gpbackup-s3-plugin" target="_blank" rel="noopener noreferrer">@gpbackup-s3-plugin</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>[WIP][Bugfix] Fix unstable CI tests <a href="https://github.com/cloudberrydb/cloudberrydb/pull/486" target="_blank" rel="noopener noreferrer">#486</a> by @foreyes</li>
+<li>Implement some feature of directory table. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/484" target="_blank" rel="noopener noreferrer">#484</a> by @wenchaozhang-123</li>
+<li>Re-enable the external FTS ICW <a href="https://github.com/cloudberrydb/cloudberrydb/pull/483" target="_blank" rel="noopener noreferrer">#483</a>  by @jiaqizho</li>
+<li>Call the <code>query_info_collect_hook</code> directly if expection happens <a href="https://github.com/cloudberrydb/cloudberrydb/pull/481" target="_blank" rel="noopener noreferrer">#481</a> by @foreyes</li>
+<li>Fix record password_history when the role is not allowed to use profile. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/480" target="_blank" rel="noopener noreferrer">#480</a> by @wenchaozhang-123</li>
+<li>Modify weekly build release details <a href="https://github.com/cloudberrydb/cloudberrydb/pull/477" target="_blank" rel="noopener noreferrer">#477</a> by @Zhangbaowen-Hashdata</li>
+<li>Re-used index after <code>ALTER COLUMN TYPE</code> shouldn't change relfilenode <a href="https://github.com/cloudberrydb/cloudberrydb/pull/474" target="_blank" rel="noopener noreferrer">#474</a> by @lss602726449</li>
+<li>Fix external_tar_download_url <a href="https://github.com/cloudberrydb/cloudberrydb/pull/472" target="_blank" rel="noopener noreferrer">#472</a> by @smartyhero</li>
+<li>Fix: replace <code>gpscp</code> with <code>gpsync</code> in ext fts <a href="https://github.com/cloudberrydb/cloudberrydb/pull/470" target="_blank" rel="noopener noreferrer">#470</a> by @jiaqizho</li>
+<li>[AQUMV] Expose the function adjust view query and varno fix. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/469" target="_blank" rel="noopener noreferrer">#469</a> by @avamingli</li>
+<li><code>directory_table</code>: matchignore &amp; remove meta-command username output <a href="https://github.com/cloudberrydb/cloudberrydb/pull/464" target="_blank" rel="noopener noreferrer">#464</a> by @edespino</li>
+<li>Enhance: Add hook to support different way to create/drop/alter warehouse <a href="https://github.com/cloudberrydb/cloudberrydb/pull/462" target="_blank" rel="noopener noreferrer">#462</a> by @lss602726449</li>
+<li>Update the location of <code>python-dependencies.txt</code> <a href="https://github.com/cloudberrydb/cloudberrydb/pull/460" target="_blank" rel="noopener noreferrer">#460</a> by @Zhangbaowen-Hashdata</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>[Bug] Errors thrown by gpinitsystem during locale checking <a href="https://github.com/cloudberrydb/cloudberrydb/issues/488" target="_blank" rel="noopener noreferrer">#488</a> by @xanadu-dev</li>
+<li>[Bug] [uos1050a<!-- -->:aarch64<!-- --> only] pg_relation_size and get_ao_compression_ratio slightly different from other operating system <a href="https://github.com/cloudberrydb/cloudberrydb/issues/487" target="_blank" rel="noopener noreferrer">#487</a> by @congxuebin</li>
+<li>[Bug] guc not valid unexpectedly, exposed on lightning external fts build <a href="https://github.com/cloudberrydb/cloudberrydb/issues/485" target="_blank" rel="noopener noreferrer">#485</a> by @congxuebin</li>
+<li>[Bug] [UOS1050a, UOS1060e] invalid byte sequence for encoding "UTF8": 0xba when create table <a href="https://github.com/cloudberrydb/cloudberrydb/issues/482" target="_blank" rel="noopener noreferrer">#482</a> by @congxuebin</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hosting-cloudberry-database-under-the-third-party-foundations">Hosting Cloudberry Database under the third-party Foundations<a href="https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter#hosting-cloudberry-database-under-the-third-party-foundations" class="hash-link" aria-label="Direct link to Hosting Cloudberry Database under the third-party Foundations" title="Direct link to Hosting Cloudberry Database under the third-party Foundations">​</a></h2>
+<p>This month, we have been contacting original Greenplum vendors and contribution teams. Most of them have shown interest in joining the efforts to take the Cloudberry Database to a third-party foundation. We want to run the Cloudberry Database for a long and not be controlled by one single commercial company as Greenplum to avoid the unexpected. The work is still in progress, and we are looking forward to providing more updates in the following weeks.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="difficult-with-migration-from-greenplum-to-cloudberry">Difficult with migration from Greenplum to Cloudberry?<a href="https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter#difficult-with-migration-from-greenplum-to-cloudberry" class="hash-link" aria-label="Direct link to Difficult with migration from Greenplum to Cloudberry?" title="Direct link to Difficult with migration from Greenplum to Cloudberry?">​</a></h2>
+<p>Along with the Greenplum going closed-source, many Greenplum users are considering choosing Cloudberry Database as the open-source alternative to the Greenplum. But we also recognize that the migration work can be not easy for users. Now we have decided to open source our business migration tool, but its progress may be slow due to limited resources. We will try our best!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/june-2024-cloudberrydb-community-newsletter#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support</a> here. Let us know if you have any questions or feedback - we're always here to help!</p>
+<p>Join us and be part of our community!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[MADlib, PL/R, PXF & PL/Java for Cloudberry Database are public now!]]></title>
+            <link>https://cloudberry.apache.org/blog/tools-for-cloudberry-database-public-pxf-plr-pljava-madlib</link>
+            <guid>https://cloudberry.apache.org/blog/tools-for-cloudberry-database-public-pxf-plr-pljava-madlib</guid>
+            <pubDate>Mon, 17 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello everyone, we are excited to share some great news. Recently, We have made the following repositories public for the Cloudberry Database now:]]></description>
+            <content:encoded><![CDATA[<p>Hello everyone, we are excited to share some great news. Recently, We have made the following repositories public for the Cloudberry Database now:</p>
+<ul>
+<li>PXF for Cloudberry Database: <a href="https://github.com/cloudberrydb/pxf" target="_blank" rel="noopener noreferrer">@cloudberrydb/pxf</a></li>
+<li>PL/R for Cloudberry Database: <a href="https://github.com/cloudberrydb/plr" target="_blank" rel="noopener noreferrer">@cloudberrydb/plr</a></li>
+<li>PL/Java for Cloudberry Database: <a href="https://github.com/cloudberrydb/pljava" target="_blank" rel="noopener noreferrer">@cloudberrydb/pljava</a></li>
+<li>MADlib for Cloudberry Database: <a href="https://github.com/cloudberrydb/madlib" target="_blank" rel="noopener noreferrer">@cloudberrydb/madlib</a></li>
+</ul>
+<p>We invite you to explore and test them. We highly appreciate your feedback, so please feel free to share your thoughts or any issues to let us know.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about-cloudberry-database">About Cloudberry Database<a href="https://cloudberry.apache.org/blog/tools-for-cloudberry-database-public-pxf-plr-pljava-madlib#about-cloudberry-database" class="hash-link" aria-label="Direct link to About Cloudberry Database" title="Direct link to About Cloudberry Database">​</a></h2>
+<p>Cloudberry Database is created by the Greenplum Database developers, PostgreSQL contributors and ASF committers. We want Cloudberry Database to be the best open source alternative to Greenplum.</p>
+<p>As a derivative of the Greenplum Database, Cloudberry Database is compatible with Greenplum. You can use Cloudberry Database the way using Greenplum. Cloudberry Database has a newer PostgreSQL 14.4 kernel and lots of advanced features Greenplum does not support, see the <a href="https://cloudberrydb.org/docs/cbdb-vs-gp-features" target="_blank" rel="noopener noreferrer">full comparison</a>.</p>]]></content:encoded>
+            <category>Announcement</category>
+        </item>
+        <item>
+            <title><![CDATA[May 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[❤️ Cloudberry Database? Giving it a ⭐ on the cloudberrydb/cloudberrydb repo!]]></description>
+            <content:encoded><![CDATA[<p>❤️ Cloudberry Database? Giving it a ⭐ on the <a href="https://github.com/cloudberrydb/cloudberrydb" target="_blank" rel="noopener noreferrer">cloudberrydb/cloudberrydb</a> repo!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-release">New Release<a href="https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter#new-release" class="hash-link" aria-label="Direct link to New Release" title="Direct link to New Release">​</a></h2>
+<p>Cloudberry Database v1.5.3 was released with a few improvements, bug fixes, and doc updates. You can check the <a href="https://cloudberrydb.org/docs/releases/release-1.5.3" target="_blank" rel="noopener noreferrer">release notes</a> for details.</p>
+<p>Our Bootcamp program has supported Cloudberry Database v1.5.2 in <a href="https://github.com/orgs/cloudberrydb/discussions/422" target="_blank" rel="noopener noreferrer">#422</a>, but we will not support v1.5.3 because extra dependencies are needed in this release. We will update the bootcamp until the next release v1.5.4 this June.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h2>
+<p>In the past weekends, Cloudberry Database was on the <a href="https://github.com/trending/c?since=daily" target="_blank" rel="noopener noreferrer">"GitHub trending/C"</a> list for two days. And our stars grew a lot, thanks to all the stargazers:</p>
+<p><a href="https://star-history.com/#cloudberrydb/cloudberrydb&amp;Date" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://api.star-history.com/svg?repos=cloudberrydb/cloudberrydb&amp;type=Date" alt="Star History Chart" class="img_ev3q"></a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ecosystem">Ecosystem<a href="https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter#ecosystem" class="hash-link" aria-label="Direct link to Ecosystem" title="Direct link to Ecosystem">​</a></h2>
+<p>PostGIS for Cloudberry Database is in public - <a href="https://github.com/cloudberrydb/postgis" target="_blank" rel="noopener noreferrer">@cloudberrydb/postgis</a>. You can follow the guide to build it on Cloudberry Database. We will upgrade the PostGIS kernel in the following months.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>[Answer Query Using Materialized Views] Consider mutable functions and bypass expressions have no Vars for view query target. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/455" target="_blank" rel="noopener noreferrer">#455</a> by @avamingli</li>
+<li>Enhance: Add warehouse_id to pg_stat_activity_extended <a href="https://github.com/cloudberrydb/cloudberrydb/pull/453" target="_blank" rel="noopener noreferrer">#453</a> by @lss602726449</li>
+<li>Insert more data to make tuplestore spill in regress/misc_jiras.sql. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/452" target="_blank" rel="noopener noreferrer">#452</a> by @fanfuxiaoran</li>
+<li>[AQUMV] Use contain_var_clause instead of pull_var_clause. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/451" target="_blank" rel="noopener noreferrer">#451</a> by @avamingli</li>
+<li>CPP keywords should not be used as function/parameter names <a href="https://github.com/cloudberrydb/cloudberrydb/pull/449" target="_blank" rel="noopener noreferrer">#449</a> by @jiaqizho</li>
+<li>[WIP] Cherry-pick GUC related code base from GreenPlum [Mar 8, 2022 - Nov 25, 2022] <a href="https://github.com/cloudberrydb/cloudberrydb/pull/448" target="_blank" rel="noopener noreferrer">#448</a> by @foreyes</li>
+<li>Add hook for exec_simple_query and support self-defined spilling memory threshold in cost module. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/447" target="_blank" rel="noopener noreferrer">#447</a> by @songdongxiaoa2</li>
+<li>[Answer Query Using Materialized Views] Support LIMIT/OFFSET/FETCH clause on origin query. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/446" target="_blank" rel="noopener noreferrer">#446</a> by @avamingli</li>
+<li>Cleanup the build tools and guide directories <a href="https://github.com/cloudberrydb/cloudberrydb/pull/445" target="_blank" rel="noopener noreferrer">#445</a> by @tuhaihe</li>
+<li>Expand a new external var tag <a href="https://github.com/cloudberrydb/cloudberrydb/pull/443" target="_blank" rel="noopener noreferrer">#443</a> by @jiaqizho</li>
+<li>PendingDelete: expand the pending deletes interface <a href="https://github.com/cloudberrydb/cloudberrydb/pull/442" target="_blank" rel="noopener noreferrer">#442</a> by @jiaqizho</li>
+<li>[Answer Query Using Materialized Views] Support Postgres special grammar DISTINCT ON clause on origin query. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/441" target="_blank" rel="noopener noreferrer">#441</a> by @avamingli</li>
+<li>[WIP] Cherry-pick ResourceGroup update from GreenPlum <a href="https://github.com/cloudberrydb/cloudberrydb/pull/440" target="_blank" rel="noopener noreferrer">#440</a> by @foreyes</li>
+<li>[AQUMV] Support DISTINCT clause on origin query. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/439" target="_blank" rel="noopener noreferrer">#439</a> by @avamingli</li>
+<li>Fix checking password file permissions in dbconn.py <a href="https://github.com/cloudberrydb/cloudberrydb/pull/438" target="_blank" rel="noopener noreferrer">#438</a> by @fanfuxiaoran</li>
+<li>[ORCA] Fix flaky "Invalid key is inaccessible" fallback (#15147) <a href="https://github.com/cloudberrydb/cloudberrydb/pull/437" target="_blank" rel="noopener noreferrer">#437</a> by @fanfuxiaoran</li>
+<li>Fix motion toast error. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/436" target="_blank" rel="noopener noreferrer">#436</a> by @gfphoenix78</li>
+<li>Refactor cbload to gpdirtableload with python. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/435" target="_blank" rel="noopener noreferrer">#435</a> by @wenchaozhang-123</li>
+<li>Fix explain(locus) issues. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/433" target="_blank" rel="noopener noreferrer">#433</a> by @avamingli</li>
+<li>Cherry pick from GPDB (02/07/2022-02/28/2022) <a href="https://github.com/cloudberrydb/cloudberrydb/pull/432" target="_blank" rel="noopener noreferrer">#432</a> by @avamingli</li>
+<li>Remove cbload relevant codes. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/431" target="_blank" rel="noopener noreferrer">#431</a> by @wenchaozhang-123</li>
+<li>checkberry gpcheckperf series updates are used to solve the problem that cbdb 1.5.2 version gpcheckperf does not display disk information <a href="https://github.com/cloudberrydb/cloudberrydb/pull/430" target="_blank" rel="noopener noreferrer">#430</a> by @August-beaulo</li>
+<li>Update the googletest module URL <a href="https://github.com/cloudberrydb/cloudberrydb/pull/429" target="_blank" rel="noopener noreferrer">#429</a> by @tuhaihe</li>
+<li>Add function cbdb_relation_size <a href="https://github.com/cloudberrydb/cloudberrydb/pull/428" target="_blank" rel="noopener noreferrer">#428</a> by @fanfuxiaoran</li>
+<li>Fix drop directory privilege check. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/425" target="_blank" rel="noopener noreferrer">#425</a> by @wenchaozhang-123</li>
+<li>Fix visimap consults for unique checks during UPDATEs <a href="https://github.com/cloudberrydb/cloudberrydb/pull/423" target="_blank" rel="noopener noreferrer">#423</a> by @lss602726449</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>[Bug] Cannot access the code URL for googletest to result in GitHub Dependabot can't update dependencies. <a href="https://github.com/cloudberrydb/cloudberrydb/issues/427" target="_blank" rel="noopener noreferrer">#427</a> by @tuhaihe</li>
+<li>[Bug] cbdb 1.5.2 version gpcheckperf does not display disk information <a href="https://github.com/cloudberrydb/cloudberrydb/issues/421" target="_blank" rel="noopener noreferrer">#421</a> by @August-beaulo</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@avamingli, @lss602726449, @fanfuxiaoran, @jiaqizho, @foreyes, @songdongxiaoa2, @tuhaihe, @gfphoenix78, @wenchaozhang-123, @August-beaulo, @vitalboyzf, @TomShawn</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/may-2024-cloudberrydb-community-newsletter#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support</a> here. Let us know if you have any questions or feedback - we're always here to help!</p>
+<p>Join us and be part of our community!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[Apply for Cloudberry Database’s Project at OSPP 2024]]></title>
+            <link>https://cloudberry.apache.org/blog/apply-for-cloudberry-database-project-at-ospp-2024</link>
+            <guid>https://cloudberry.apache.org/blog/apply-for-cloudberry-database-project-at-ospp-2024</guid>
+            <pubDate>Mon, 13 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are delighted to announce that Cloudberry Database has become a community member of the Open Source Promotion Program (OSPP). Our project has also been approved by the program committee. We invite students worldwide to join us in OSPP 2024 and explore the world of open-source databases with our project.]]></description>
+            <content:encoded><![CDATA[<p>We are delighted to announce that Cloudberry Database has become a community member of the <a href="https://summer-ospp.ac.cn/" target="_blank" rel="noopener noreferrer">Open Source Promotion Program (OSPP)</a>. Our project has also been approved by the program committee. We invite students worldwide to join us in OSPP 2024 and explore the world of open-source databases with our project.</p>
+<p><img decoding="async" loading="lazy" alt="ospp-cloudberrydb-2024" src="https://cloudberry.apache.org/assets/images/ospp-cloudberrydb-2024-06e6d2c8127d57559a2525fad52e57c8.png" width="1515" height="557" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-ospp">What's OSPP?<a href="https://cloudberry.apache.org/blog/apply-for-cloudberry-database-project-at-ospp-2024#whats-ospp" class="hash-link" aria-label="Direct link to What's OSPP?" title="Direct link to What's OSPP?">​</a></h2>
+<p>The Open Source Promotion Program (OSPP), which is initiated by the Institute of Software Chinese Academy of Sciences, is a summer event that encourages university students to participate in the development of open-source software.</p>
+<p>Much like Google Summer of Code, OSPP provides an opportunity for students to get involved and contribute to the open-source community.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-cloudberry-database">What’s Cloudberry Database<a href="https://cloudberry.apache.org/blog/apply-for-cloudberry-database-project-at-ospp-2024#whats-cloudberry-database" class="hash-link" aria-label="Direct link to What’s Cloudberry Database" title="Direct link to What’s Cloudberry Database">​</a></h2>
+<p>Cloudberry Database is created by one team of original Greenplum Database developers and ASF committers. We aim to bring modern computing capabilities to the traditional distributed MPP database to support Analytics and AI/ML workloads in one platform.</p>
+<p>As a derivative of Greenplum Database 7, Cloudberry Database is compatible with Greenplum Database, but it's shipped with a newer PostgreSQL 14.4 kernel (scheduled kernel upgrade yearly), and a bunch of features Greenplum Database lacks or does not support. View the <a href="https://cloudberrydb.org/docs/cbdb-vs-gp-features" target="_blank" rel="noopener noreferrer">Cloudberry Database vs Greenplum Database</a> doc for details.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="our-project-for-ospp-2024">Our Project for OSPP 2024<a href="https://cloudberry.apache.org/blog/apply-for-cloudberry-database-project-at-ospp-2024#our-project-for-ospp-2024" class="hash-link" aria-label="Direct link to Our Project for OSPP 2024" title="Direct link to Our Project for OSPP 2024">​</a></h2>
+<p><strong><a href="https://summer-ospp.ac.cn/org/prodetail/24e980375?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer">Support FTP/SFTP Protocol for Directory Table Filesystem Schema</a></strong></p>
+<ul>
+<li>Difficulty: Basic Bonus: RMB 8,000 (before tax)</li>
+<li>Mentor: Ray Eldath</li>
+<li>Mailbox: <a href="mailto:ray.eldath@outlook.com" target="_blank" rel="noopener noreferrer">ray.eldath#outlook.com</a></li>
+</ul>
+<p>Click to <a href="https://summer-ospp.ac.cn/org/prodetail/24e980375?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer">Apply Now</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-participate">How to participate<a href="https://cloudberry.apache.org/blog/apply-for-cloudberry-database-project-at-ospp-2024#how-to-participate" class="hash-link" aria-label="Direct link to How to participate" title="Direct link to How to participate">​</a></h2>
+<p>To participate, students must register and fill in their personal information on the official website. Once the committee approves the information, registration is complete.</p>
+<p>The deadline for student registration is June 3th, and the deadline for project application is June 4th. Please look at the <a href="https://summer-ospp.ac.cn/help/en/student/#student-guide_1" target="_blank" rel="noopener noreferrer">student guide</a> for the timeline and notice.</p>
+<p>If you have any questions or are interested in the project, please feel free to ask through our <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support channels</a>. We're always here to help.</p>
+<p>We strongly suggest that you explore our GitHub and Docs to get a comprehensive view of our project beforehand.</p>]]></content:encoded>
+            <category>Announcement</category>
+        </item>
+        <item>
+            <title><![CDATA[April 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/april-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/april-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the April 2024 community newsletter for the Cloudberry Database project. Let's explore what our Cloudberry Database community happened in this month.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the April 2024 community newsletter for the Cloudberry Database project. Let's explore what our Cloudberry Database community happened in this month.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-release">New Release<a href="https://cloudberry.apache.org/blog/april-2024-cloudberrydb-community-newsletter#new-release" class="hash-link" aria-label="Direct link to New Release" title="Direct link to New Release">​</a></h2>
+<p>We want to make our release often and quickly to ship the latest features and bug fixes of Cloudberry Database. We're on the way. Cloudberry Database 1.5.2 was just shipped with lots of updates. You can view the changelogs and download v1.5.2 to try on the  <a href="https://github.com/cloudberrydb/cloudberrydb/releases/tag/1.5.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>
+<p>In the past weeks, we upgraded the bootcamp program to support the Cloudberry Database 1.5.1 version. Along with the new version 1.5.2, we will support it in the following weeks.</p>
+<sub><a href="https://github.com/cloudberrydb/bootcamp" target="_blank" rel="noopener noreferrer">Bootcamp</a> is one Docker-based Sandbox, which is tailored to help you gain a basic understanding of Cloudberry Database's capabilities and features a range of materials, including tutorials, sample code, and crash courses.</sub>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="website">Website<a href="https://cloudberry.apache.org/blog/april-2024-cloudberrydb-community-newsletter#website" class="hash-link" aria-label="Direct link to Website" title="Direct link to Website">​</a></h2>
+<p>We added a bunch of documents to the Cloudberry Database, including  <a href="https://github.com/cloudberrydb/cloudberrydb-site/pull/75" target="_blank" rel="noopener noreferrer">cloudberrydb-site#75</a>,  <a href="https://github.com/cloudberrydb/cloudberrydb-site/pull/87" target="_blank" rel="noopener noreferrer">cloudberrydb-site#87</a>, and  <a href="https://github.com/cloudberrydb/cloudberrydb-site/pull/70" target="_blank" rel="noopener noreferrer">cloudberrydb-site#70</a>. Also, we are working on the web page translation pull request  <a href="https://github.com/cloudberrydb/cloudberrydb-site/pull/118" target="_blank" rel="noopener noreferrer">cloudberrydb-site#118</a>  review.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/april-2024-cloudberrydb-community-newsletter#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<p>One notable feature, the directory table(<a href="https://github.com/cloudberrydb/cloudberrydb/pull/390" target="_blank" rel="noopener noreferrer">#390</a>), is merged this monthly. You can use it and are welcome to give your feedback.</p>
+<ul>
+<li>Fix copy from directory table. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/416" target="_blank" rel="noopener noreferrer">#416</a> by @wenchaozhang-123</li>
+<li>Fix directory table ci pipeline problems. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/414" target="_blank" rel="noopener noreferrer">#414</a> by @wenchaozhang-123</li>
+<li>Disable dump pax tables in <code>pg_dump</code>. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/412" target="_blank" rel="noopener noreferrer">#412</a> by @jiaqizho</li>
+<li>Doc: update the README.md. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/411" target="_blank" rel="noopener noreferrer">#411</a> by @tuhaihe</li>
+<li>Fix: pgrx cannot find function after numeric change interface. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/410" target="_blank" rel="noopener noreferrer">#410</a> by @jiaqizho</li>
+<li>Doc: update the deploying README.md. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/409" target="_blank" rel="noopener noreferrer">#409</a> by @Zhangbaowen-Hashdata</li>
+<li>Fix: make enough out data buffer when call <code>EVP_DecryptUpdate</code>. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/408" target="_blank" rel="noopener noreferrer">#408</a> by @kongfanshen-0801</li>
+<li>Feature: Use <code>amflags</code> to support Column-oriented scanning of custom tableam. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/407" target="_blank" rel="noopener noreferrer">#407</a> by @gongxun0928</li>
+<li>Add GUC <code>gp_random_insert_segments</code> to control the segments used for random distributed table insertion. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/406" target="_blank" rel="noopener noreferrer">#406</a> by @foreyes</li>
+<li>Push the runtime filter from hashjoin to seqscan or AM. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/405" target="_blank" rel="noopener noreferrer">#405</a> by @zhangyue-hashdata</li>
+<li>[cherry-pick] [7X] gpconfig does not escape '$' char. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/403" target="_blank" rel="noopener noreferrer">#403</a> by @Ray-Eldath</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="events">Events<a href="https://cloudberry.apache.org/blog/april-2024-cloudberrydb-community-newsletter#events" class="hash-link" aria-label="Direct link to Events" title="Direct link to Events">​</a></h2>
+<p>Fortunately, the Cloudberry Database's task is approved by the OSPP. If you're a college student, you are welcome to apply our task.</p>
+<p><img decoding="async" loading="lazy" alt="Summer-OSPP" src="https://cloudberry.apache.org/assets/images/Summer-OSPP-AC-9ef7c782258b4b174bc887d76f5f55a9.svg" width="148" height="44" class="img_ev3q"></p>
+<p>Detail: <a href="https://summer-ospp.ac.cn/org/prodetail/24e980375" target="_blank" rel="noopener noreferrer">https://summer-ospp.ac.cn/org/prodetail/24e980375</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/april-2024-cloudberrydb-community-newsletter#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@wenchaozhang-123, @jiaqizho, @tuhaihe, @Zhangbaowen-Hashdata, @kongfanshen-0801, @gongxun0928, @foreyes, @zhangyue-hashdata, @Ray-Eldath, @TomShawn</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/april-2024-cloudberrydb-community-newsletter#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support</a> here. Let us know if you have any questions or feedback - we're always here to help!</p>
+<p>Join us and be part of our community!</p>
+<hr>
+<p><a href="https://communityinviter.com/apps/cloudberrydb/welcome" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/Slack-6a32c9" alt="Slack" class="img_ev3q"></a> <a href="https://twitter.com/cloudberrydb" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/twitter/follow/cloudberrydb" alt="Twitter" class="img_ev3q"></a> <a href="https://cloudberrydb.org/community/wechat" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/WeChat-eebc46" alt="WeChat" class="img_ev3q"></a> <a href="https://cloudberrydb.org/" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/Website-bbec46" alt="Website" class="img_ev3q"></a> <a href="https://youtube.com/@cloudberrydb" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/Youtube-gebc46" alt="Youtube" class="img_ev3q"></a> <a href="https://github.com/orgs/cloudberrydb/discussions" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/Forum-gebc46" alt="Discussions" class="img_ev3q"></a></p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[March 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/march-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/march-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hey there! Welcome to the March 2024 community newsletter for the Cloudberry Database project. We're excited to share the latest updates on the project and the community. Let's dive in, shall we?]]></description>
+            <content:encoded><![CDATA[<p>Hey there! Welcome to the March 2024 community newsletter for the Cloudberry Database project. We're excited to share the latest updates on the project and the community. Let's dive in, shall we?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-release">New Release<a href="https://cloudberry.apache.org/blog/march-2024-cloudberrydb-community-newsletter#new-release" class="hash-link" aria-label="Direct link to New Release" title="Direct link to New Release">​</a></h2>
+<p>Cloudberry Database <a href="https://github.com/cloudberrydb/cloudberrydb/releases/tag/1.5.1" target="_blank" rel="noopener noreferrer">v1.5.1</a> has been released with a few improvements and bug fixes. For further information, please refer to the <a href="https://cloudberrydb.org/docs/releases/release-1.5.1" target="_blank" rel="noopener noreferrer">release notes</a>. Thanks to all the contributors who made this release happen.</p>
+<sub>Want to try it out quickly? Follow our <a href="https://cloudberrydb.org/bootcamp" target="_blank" rel="noopener noreferrer">Bootcamp program</a> to get started with the Cloudberry Database Sandbox.</sub>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="website">Website<a href="https://cloudberry.apache.org/blog/march-2024-cloudberrydb-community-newsletter#website" class="hash-link" aria-label="Direct link to Website" title="Direct link to Website">​</a></h2>
+<p>In March, we added some new features to our website, such as the ability to search the documentation on the site. We also introduced a light mode to enhance the browsing experience. Additionally, we are currently redesigning the homepage of our website, so stay tuned for the new look!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BsirEs9zrJ8?si=duBv99IEii0s_J5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/march-2024-cloudberrydb-community-newsletter#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>Default build for postgres_fdw <a href="https://github.com/cloudberrydb/cloudberrydb/pull/400" target="_blank" rel="noopener noreferrer">#400</a> by @smartyhero</li>
+<li>Modify the orca optimizer's processing of unionall distribution strategy <a href="https://github.com/cloudberrydb/cloudberrydb/pull/399" target="_blank" rel="noopener noreferrer">#399</a> by @Light-City</li>
+<li>Fix: invalid record type in projection list <a href="https://github.com/cloudberrydb/cloudberrydb/pull/397" target="_blank" rel="noopener noreferrer">#397</a> by @jiaqizho</li>
+<li>[DNM]Fix: no need to do the qual-clause twice <a href="https://github.com/cloudberrydb/cloudberrydb/pull/396" target="_blank" rel="noopener noreferrer">#396</a> by @jiaqizho</li>
+<li>Add inline function 'table_scan_flags' for table AM to get the flags <a href="https://github.com/cloudberrydb/cloudberrydb/pull/395" target="_blank" rel="noopener noreferrer">#395</a> by @HuSen8891</li>
+<li>Fix: redefined sm4 in pgcrypto and backend/crypto <a href="https://github.com/cloudberrydb/cloudberrydb/pull/394" target="_blank" rel="noopener noreferrer">#394</a> by @jiaqizho</li>
+<li>Enhancement: Add gpshrink to support elastic scaling <a href="https://github.com/cloudberrydb/cloudberrydb/pull/393" target="_blank" rel="noopener noreferrer">#393</a> by @lss602726449</li>
+<li>Export numeric structure and interface to public <a href="https://github.com/cloudberrydb/cloudberrydb/pull/392" target="_blank" rel="noopener noreferrer">#392</a> by @jiaqizho</li>
+<li>Add new callback 'scan_flags' for table access method <a href="https://github.com/cloudberrydb/cloudberrydb/pull/391" target="_blank" rel="noopener noreferrer">#391</a> by @HuSen8891</li>
+<li>Implement of Directory table <a href="https://github.com/cloudberrydb/cloudberrydb/pull/390" target="_blank" rel="noopener noreferrer">#390</a> by @wenchaozhang-123</li>
+<li>Move preloaded interconnect to the header file <a href="https://github.com/cloudberrydb/cloudberrydb/pull/388" target="_blank" rel="noopener noreferrer">#388</a> by @gfphoenix78</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ideas--feature-requests">Ideas / Feature Requests<a href="https://cloudberry.apache.org/blog/march-2024-cloudberrydb-community-newsletter#ideas--feature-requests" class="hash-link" aria-label="Direct link to Ideas / Feature Requests" title="Direct link to Ideas / Feature Requests">​</a></h2>
+<ul>
+<li>Support disaster recovery for CBDB in asynchronous mode <a href="https://github.com/orgs/cloudberrydb/discussions/398" target="_blank" rel="noopener noreferrer">#398</a> By @my-ship-it</li>
+</ul>
+<p>What about your thoughts on the new feature? Welcome to leave a comment.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/march-2024-cloudberrydb-community-newsletter#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@smartyhero, @Light-City, @jiaqizho, @HuSen8891, @lss602726449, @wenchaozhang-123, @gfphoenix78, @vitalboyzf, @TomShawn, @my-ship-it</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/march-2024-cloudberrydb-community-newsletter#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support</a> here. Let us know if you have any questions or feedback - we're always here to help!</p>
+<p>Join us and be part of our community!</p>
+<hr>
+<p><a href="https://communityinviter.com/apps/cloudberrydb/welcome" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/Slack-6a32c9" alt="Slack" class="img_ev3q"></a> <a href="https://twitter.com/cloudberrydb" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/twitter/follow/cloudberrydb" alt="Twitter" class="img_ev3q"></a> <a href="https://cloudberrydb.org/community/wechat" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/WeChat-eebc46" alt="WeChat" class="img_ev3q"></a> <a href="https://cloudberrydb.org/" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/Website-bbec46" alt="Website" class="img_ev3q"></a> <a href="https://youtube.com/@cloudberrydb" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/Youtube-gebc46" alt="Youtube" class="img_ev3q"></a> <a href="https://github.com/orgs/cloudberrydb/discussions" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/badge/Forum-gebc46" alt="Discussions" class="img_ev3q"></a></p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[February 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello, welcome back to work after a long Chinese New Year holiday. This is our February 2024 community newsletter for the Cloudberry Database. In this newsletter, I'll share the latest updates on the Cloudberry Database project and the community.]]></description>
+            <content:encoded><![CDATA[<p>Hello, welcome back to work after a long Chinese New Year holiday. This is our February 2024 community newsletter for the Cloudberry Database. In this newsletter, I'll share the latest updates on the Cloudberry Database project and the community.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>Fix: initialize parallel_workers to zero for CdbPathLocus_HashedOJ <a href="https://github.com/cloudberrydb/cloudberrydb/pull/387" target="_blank" rel="noopener noreferrer">#387</a> by @HuSen8891</li>
+<li>Revert #201 partially <a href="https://github.com/cloudberrydb/cloudberrydb/pull/386" target="_blank" rel="noopener noreferrer">#386</a> by @Ray-Eldath</li>
+<li>Offload entry root slice to QE <a href="https://github.com/cloudberrydb/cloudberrydb/pull/385" target="_blank" rel="noopener noreferrer">#385</a> by @Ray-Eldath</li>
+<li>Feature: add tests and benchmark in interconnect module <a href="https://github.com/cloudberrydb/cloudberrydb/pull/384" target="_blank" rel="noopener noreferrer">#384</a> by @jiaqizho</li>
+<li>Feature: extend int128 to numeric interface <a href="https://github.com/cloudberrydb/cloudberrydb/pull/381" target="_blank" rel="noopener noreferrer">#381</a> by @jiaqizho</li>
+<li>Fix CREATE TYPE in namespace pg_ext_aux <a href="https://github.com/cloudberrydb/cloudberrydb/pull/380" target="_blank" rel="noopener noreferrer">#380</a> by @gfphoenix78</li>
+<li>Fix shell script involves demo cluster <a href="https://github.com/cloudberrydb/cloudberrydb/pull/377" target="_blank" rel="noopener noreferrer">#377</a> by @gfphoenix78</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-release">New Release<a href="https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter#new-release" class="hash-link" aria-label="Direct link to New Release" title="Direct link to New Release">​</a></h2>
+<p>We have released version <a href="https://github.com/cloudberrydb/cloudberrydb/releases/tag/v1.5.0" target="_blank" rel="noopener noreferrer">v1.5.0</a> with a few important updates. You can find all the details in the <a href="https://cloudberrydb.org/docs/releases/release-1.5.0" target="_blank" rel="noopener noreferrer">release notes</a>. Many thanks to all the contributors who made this release possible.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="website">Website<a href="https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter#website" class="hash-link" aria-label="Direct link to Website" title="Direct link to Website">​</a></h2>
+<p>Last month, we launched our new Cloudberry Database website. We are working on improving the website's experience this month, including adding a responsive layout and updating some pages' Chinese translations. More updates are coming soon.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ideas--feature-requests">Ideas / Feature Requests<a href="https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter#ideas--feature-requests" class="hash-link" aria-label="Direct link to Ideas / Feature Requests" title="Direct link to Ideas / Feature Requests">​</a></h2>
+<ul>
+<li>Support scale-down of Cloudberry Database clusters <a href="https://github.com/orgs/cloudberrydb/discussions/382" target="_blank" rel="noopener noreferrer">#382</a>.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>ERROR: Make install error on Centos7.9 <a href="https://github.com/cloudberrydb/cloudberrydb/issues/383" target="_blank" rel="noopener noreferrer">#383</a> by @Zhangbaowen-Hashdata</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@HuSen8891, @Ray-Eldath, @jiaqizho, @gfphoenix78, @Zhangbaowen-Hashdata, @tuhaihe, @TomShawn, @vitalboyzf</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/february-2024-cloudberrydb-community-newsletter#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support</a> here. Let us know if you have any questions or feedback - we're always here to help!</p>
+<p>Join us and be part of our community!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[January 2024 - Cloudberry Database Community Newsletter]]></title>
+            <link>https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter</link>
+            <guid>https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter</guid>
+            <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello, welcome to the first issue of our community newsletter for 2024. In this newsletter, I'll share the latest updates on the Cloudberry Database project and the community.]]></description>
+            <content:encoded><![CDATA[<p>Hello, welcome to the first issue of our community newsletter for 2024. In this newsletter, I'll share the latest updates on the Cloudberry Database project and the community.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudberry-database-roadmap-2024">Cloudberry Database Roadmap 2024<a href="https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter#cloudberry-database-roadmap-2024" class="hash-link" aria-label="Direct link to Cloudberry Database Roadmap 2024" title="Direct link to Cloudberry Database Roadmap 2024">​</a></h3>
+<p>We have just released the Cloudberry Database Roadmap for 2024 and you can find it on <a href="https://github.com/orgs/cloudberrydb/discussions/369" target="_blank" rel="noopener noreferrer">GitHub Discussions #369</a>. The roadmap outlines the milestones for the Cloudberry Database project in 2024, including features and enhancements, kernel updates, streaming, lakehouse, AI/ML, ecosystem, and release plan.</p>
+<p>We would be delighted if you could join us in shaping the future of Cloudberry Database. We welcome your thoughts and ideas, so feel free to share them.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-fresh-look-website">New fresh-look Website<a href="https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter#new-fresh-look-website" class="hash-link" aria-label="Direct link to New fresh-look Website" title="Direct link to New fresh-look Website">​</a></h3>
+<p>At the beginning of 2024, we launched our new Cloudberry Database website which has a fresh and modern design. We are confident that you will have an excellent browsing experience on the website. In case you have any suggestions, please feel free to let us know.</p>
+<p><img decoding="async" loading="lazy" alt="New Website Screenshot" src="https://cloudberry.apache.org/assets/images/new-site-screenshot-b46c1e4947fa362020906c91d36c1117.png" width="1200" height="715" class="img_ev3q"></p>
+<p>In the coming months, we will introduce support for responsive layout, light mode, and more features. Please stay tuned for these updates.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>Fix: unstable ao vacuum icw test <a href="https://github.com/cloudberrydb/cloudberrydb/pull/376" target="_blank" rel="noopener noreferrer">#376</a> by @jiaqizho</li>
+<li>Don't inherit parent's reloptions if child partition's AM differs <a href="https://github.com/cloudberrydb/cloudberrydb/pull/375" target="_blank" rel="noopener noreferrer">#375</a>  by @yjhjstz</li>
+<li>Extend a new AM method to do acquire sample rows. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/374" target="_blank" rel="noopener noreferrer">#374</a>  by @wenchaozhang-123</li>
+<li>Fix configue not consistent with configure.ac <a href="https://github.com/cloudberrydb/cloudberrydb/pull/373" target="_blank" rel="noopener noreferrer">#373</a>  by @lss602726449</li>
+<li>Fix CopyCreateStmtFields, lost intoPolicy field. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/372" target="_blank" rel="noopener noreferrer">#372</a>  by @yjhjstz</li>
+<li>As ci will failed in upterm stage, revert it now. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/371" target="_blank" rel="noopener noreferrer">#371</a>  by @wenchaozhang-123</li>
+<li>[AQUMV] Use view's TupleDesc to construct final columns. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/366" target="_blank" rel="noopener noreferrer">#366</a>  by @avamingli</li>
+<li>Fix AO/AOCS insertDesc memory issue. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/365" target="_blank" rel="noopener noreferrer">#365</a>  by @avamingli</li>
+<li>Fix greenplum_path.sh change PATH <a href="https://github.com/cloudberrydb/cloudberrydb/pull/363" target="_blank" rel="noopener noreferrer">#363</a>  by @Ray-Eldath</li>
+<li>make  <code>shareinput_Xslice_dsm_handle_ptr</code>  and  <code>shareinput_Xslice_hash</code>  non-static <a href="https://github.com/cloudberrydb/cloudberrydb/pull/361" target="_blank" rel="noopener noreferrer">#361</a>  by @shmiwy</li>
+<li>[Answer Query Using Materialized Views] Support ORDER BY in origin query <a href="https://github.com/cloudberrydb/cloudberrydb/pull/358" target="_blank" rel="noopener noreferrer">#358</a>  by @avamingli</li>
+<li>[AQUMV] Avoid misbehaviors that are not supported currently. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/357" target="_blank" rel="noopener noreferrer">#357</a>  by @avamingli</li>
+<li>gpssh: removing b and \r getting added to command output <a href="https://github.com/cloudberrydb/cloudberrydb/pull/355" target="_blank" rel="noopener noreferrer">#355</a>  by @wenchaozhang-123</li>
+<li>[Answer Query Using Materialized Views] Support HAVING clause in origin query <a href="https://github.com/cloudberrydb/cloudberrydb/pull/354" target="_blank" rel="noopener noreferrer">#354</a>  by @avamingli</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>[Bug] a table specified with "appendonly=true, orientation=column" appears not as an ao table <a href="https://github.com/cloudberrydb/cloudberrydb/issues/368" target="_blank" rel="noopener noreferrer">#368</a>  by @congxuebin</li>
+<li>[Bug] Copy from will fail when talble is ao_row <a href="https://github.com/cloudberrydb/cloudberrydb/issues/364" target="_blank" rel="noopener noreferrer">#364</a>  by @shmiwy</li>
+<li>ERROR: found two entries in pg_aocsseg_73427122 <a href="https://github.com/cloudberrydb/cloudberrydb/issues/362" target="_blank" rel="noopener noreferrer">#362</a>  by @liyxbeijing</li>
+<li>TeardownTCPInterconnect issue when interconnect type set as TCP <a href="https://github.com/cloudberrydb/cloudberrydb/issues/360" target="_blank" rel="noopener noreferrer">#360</a>  by @liyxbeijing</li>
+<li>ic-proxy: interconnect error: connection closed prematurely <a href="https://github.com/cloudberrydb/cloudberrydb/issues/359" target="_blank" rel="noopener noreferrer">#359</a>  by @liyxbeijing</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tools">Tools<a href="https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter#tools" class="hash-link" aria-label="Direct link to Tools" title="Direct link to Tools">​</a></h2>
+<p>The <code>gpbackup for Cloudberry Database</code> release v1.0.3 is out, you can download the latest from its <a href="https://github.com/cloudberrydb/gpbackup" target="_blank" rel="noopener noreferrer">GitHub repo</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@jiaqizho, @yjhjstz, @wenchaozhang-123, @lss602726449, @avamingli, @Ray-Eldath, @shmiwy, @congxuebin, @liyxbeijing, @tuhaihe, @TomShawn, @IdaLee666, @vitalboyzf</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/january-2024-cloudberrydb-community-newsletter#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find  <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support</a>  here. Let us know if you have any questions or feedback - we're always here to help!</p>
+<p>Join us and be part of our community!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[PostgreSQL Technical Insights (Part 1): Data Organization]]></title>
+            <link>https://cloudberry.apache.org/blog/postgresql-technical-insights-1</link>
+            <guid>https://cloudberry.apache.org/blog/postgresql-technical-insights-1</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[PostgreSQL, often referred to as PG, stands out as one of the most powerful open-source databases. It has undergone rapid technological advancements in recent years, repeatedly earning the prestigious title of "DBMS of the Year" in the DB-Engines rankings.]]></description>
+            <content:encoded><![CDATA[<p>PostgreSQL, often referred to as PG, stands out as one of the most powerful open-source databases. It has undergone rapid technological advancements in recent years, repeatedly earning the prestigious title of "DBMS of the Year" in the DB-Engines rankings.</p>
+<p>PG excels in supporting queries for both relational and non-relational data, providing developers with a diverse range of functionalities. It not only aids in application development but also empowers administrators to ensure data integrity. With a legacy spanning over two decades of community-driven development, PG has honed its capabilities in fault recovery, integrity, and precision.</p>
+<p>In this article, we delve into the secret of PG data organization.</p>
+<p><img decoding="async" loading="lazy" alt="CloudberryDB Sandbox" src="https://cloudberry.apache.org/assets/images/pg-insights-1-1-6552d0b51149a7ebc8f800174ebd19ee.png" width="1280" height="664" class="img_ev3q"></p>
+<p><em>Source: PostgreSQL 14 Internals.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="data-organization-in-postgresql">Data organization in PostgreSQL<a href="https://cloudberry.apache.org/blog/postgresql-technical-insights-1#data-organization-in-postgresql" class="hash-link" aria-label="Direct link to Data organization in PostgreSQL" title="Direct link to Data organization in PostgreSQL">​</a></h2>
+<p>During PG initialization, three databases are automatically created: <code>template0</code>, <code>template1</code>, and the <code>postgres</code> database. Users can also create their own databases.</p>
+<ul>
+<li><code>template0</code> remains immutable, serving the purpose of initiating a clean environment during system recovery.</li>
+<li><code>template1</code> acts as a template when users create a new database. Users can customize tables and components based on <code>template1</code>, and the newly created database inherits these components.</li>
+</ul>
+<p>PG introduces the concept of namespaces, known as schemas, to mitigate naming conflicts between objects (e.g., tables) with identical names within the same database. Notably, schemas are specific to each database.</p>
+<p><img decoding="async" loading="lazy" alt="CloudberryDB Sandbox" src="https://cloudberry.apache.org/assets/images/pg-insights-1-2-91aafd594ac5921d05795dd9e12a65b2.png" width="567" height="225" class="img_ev3q"></p>
+<p><em>Source: PostgreSQL 14 Internals.</em></p>
+<p>Taking the provided diagram as an example, <code>Database 1</code> and <code>Database 2</code> each have <code>Schema 1</code> and <code>Schema 2</code>, containing tables named <code>t1</code>, <code>t2</code>, and <code>t3</code>. Despite identical table names, the different schemas prevent conflicts.</p>
+<p>Certain schemas are embedded in the system, such as <code>public</code>, <code>pg_catalog</code>, <code>information_schema</code>, and <code>pg_toast</code>. Notably, PG metadata and tables reside in the <code>pg_catalog</code> schema, housing system tables, indexes, built-in data types, functions, and more. For system tables, <code>pg_class</code> stores table descriptions, <code>pg_database</code> stores information about PG-created databases, and <code>pg_am</code> is used for storing metadata related to table access functions.</p>
+<p><img decoding="async" loading="lazy" alt="CloudberryDB Sandbox" src="https://cloudberry.apache.org/assets/images/pg-insights-1-3-f8a6772371db3baeb89958d655dfe5b4.png" width="1080" height="652" class="img_ev3q"></p>
+<p><em>Source: PostgreSQL 14 Internals.</em></p>
+<p>For user-specified tables, PostgreSQL determines the schema to which the tables belong using the configuration parameter <code>search_path</code>. The <code>search_path</code> is a comma-separated list of schemas. Users can specify the priority order of the schema list by setting the <code>search_path</code>, with priority decreasing from left to right. If none of the schemas in the <code>search_path</code> contains a matching table name, an error is reported, even if there are matching table names in other schemas within the database.</p>
+<p><img decoding="async" loading="lazy" alt="CloudberryDB Sandbox" src="https://cloudberry.apache.org/assets/images/pg-insights-1-4-e0396445b3aa7a40d68fb1420fce8a8e.png" width="1080" height="578" class="img_ev3q"></p>
+<p><em>Source: PostgreSQL 14 Internals.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="postgresql-file-layout">PostgreSQL file layout<a href="https://cloudberry.apache.org/blog/postgresql-technical-insights-1#postgresql-file-layout" class="hash-link" aria-label="Direct link to PostgreSQL file layout" title="Direct link to PostgreSQL file layout">​</a></h2>
+<p>Physically, PostgreSQL introduces the concept of tablespaces to specify storage paths for tables. The default system tablespace is named <code>pg_default</code>, and users can customize tablespaces as per their requirements.</p>
+<p><img decoding="async" loading="lazy" alt="CloudberryDB Sandbox" src="https://cloudberry.apache.org/assets/images/pg-insights-1-5-afdcce1aa141c83ec1775de0a4880847.png" width="1080" height="595" class="img_ev3q"></p>
+<p><em>Source: PostgreSQL 14 Internals.</em></p>
+<p>From the diagram above, the <code>pg_global</code> tablespace is mapped to the path <code>$PGDATA/global</code>, the <code>pg_default</code> tablespace is mapped to <code>$PGDATA/base/</code>, and user-defined tablespaces are mapped to <code>$PGDATA/pg_tblspc/</code>. Additionally, tablespaces can be leveraged to segregate hot and cold data, with hot data stored on SSD-associated paths and cold data on SATA disk-associated paths.</p>
+<p><img decoding="async" loading="lazy" alt="CloudberryDB Sandbox" src="https://cloudberry.apache.org/assets/images/pg-insights-1-6-938c0f087257a51bc7fcbdc0417399d2.png" width="1080" height="640" class="img_ev3q"></p>
+<p><em>Source: PostgreSQL 14 Internals.</em></p>
+<p>As files grow larger, PostgreSQL creates a new file with the same fork when it reaches 1GB. Typically, each table's file collection corresponds to multiple suffix fork files. The main fork stores actual data, including table and index rows. This main fork is applicable to any relationship (excluding data-less views). Files are usually divided into 1GB-sized segments to ensure compatibility with various file systems, acknowledging that some file systems may struggle with larger files.</p>
+<p>To manage free space within files, PostgreSQL introduces the concept of a Free Space Map (FSM) file, which tracks the location information of internal free space within data pages. PostgreSQL dynamically maintains the content of the Free Space Map file. For example, after performing data reclamation through <code>Vacuum</code>, it records information about newly available free pages in the Free Space Map file, facilitating quick reuse of reclaimed free pages in the future.</p>
+<p>Additionally, the visibility map records whether data in a page is "visible," freeing the need for MVCC visibility checks on each row individually within the page. This significantly enhances data scanning performance.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="postgersql-in-page-data-storage-and-toast">PostgerSQL in-page data storage and TOAST<a href="https://cloudberry.apache.org/blog/postgresql-technical-insights-1#postgersql-in-page-data-storage-and-toast" class="hash-link" aria-label="Direct link to PostgerSQL in-page data storage and TOAST" title="Direct link to PostgerSQL in-page data storage and TOAST">​</a></h2>
+<p>In PostgreSQL, the default page size is 8KB. When a tuple (similar to a row in a table) becomes exceptionally large and cannot fit within a page, PostgreSQL employs a technique called TOAST (The Oversized-Attribute Storage Technique). For the oversized attributes, PostgreSQL introduces various storage strategies.</p>
+<p>TOAST strategies:</p>
+<ul>
+<li><strong>PLAIN</strong>: Avoids compression and out-of-row storage. This strategy is only permitted for data types that can be stored without using TOAST, such as integer types. It is not allowed for types like text that require storage lengths exceeding the page size.</li>
+<li><strong>EXTENDED</strong>: Allows compression and out-of-line storage. Typically, it first attempts compression, resorting to out-of-line storage if the data remains too large.</li>
+<li><strong>EXTERNAL</strong>: Permits out-of-row storage but disallows compression. This strategy might offer higher performance for fields like strings that operate on a portion of the data, avoiding the need to read the entire row data and then decompress.</li>
+<li><strong>MAIN</strong>: Allows compression but disallows out-of-line storage. In practice, out-of-line storage might still be initiated as a last resort when other methods (such as compression) fail to meet the requirements for storing excessively large data. Therefore, it is more accurate to understand it as an approach to minimize the use of out-of-line storage is more accurate.</li>
+</ul>
+<p>In general, to ensure storage density, PostgreSQL aims to store at least four tuples on one page (with an 8KB page size). Theoretically, the maximum tuple size threshold is determined by the formula: (8KB - page header) / 4. When employing TOAST storage, the following algorithmic principles are sequentially applied, stopping immediately when the row no longer exceeds the threshold:</p>
+<ol>
+<li>Starting from the "longest" attribute to the "shortest" attribute, attributes are traversed using "EXTERNAL" and "EXTENDED" strategies. If the EXTENDED attribute is compressed (if valid) and if the value itself exceeds one-fourth of the page, it is immediately sent to the TOAST table. The handling of External attributes is similar but without compression.</li>
+<li>If the row version still does not fit the page after the first pass, the remaining attributes with "EXTERNAL" and "EXTENDED" strategies are transferred to the TOAST table.</li>
+<li>If this does not help either, an attempt can be made to compress the attributes with the "MAIN" strategy but keep them in the table's pages.</li>
+<li>Only after step 3, if the row is still not short enough, can attributes with the "MAIN" strategy enter the TOAST table.</li>
+</ol>
+<p>Sometimes it can be useful to change the strategy for certain columns. For example, if it is known in advance that data in a column cannot be compressed, setting the "EXTERNAL" strategy for that column can help avoid unnecessary compression attempts, thus saving time. Note that TOAST is applicable only to tables and not to indexes. This imposes limitations on the size of keys to be indexed.</p>
+<p>As a data warehouse fully compatible with the PostgreSQL ecosystem, Cloudberry Database extends new storage engines on top of PostgreSQL, such as AO tables, a vectorized execution engine based on Arrow, and columnar storage engines, further enhancing system performance. Rooted in open source and committed to contributing back to the open-source community, Cloudberry Database focuses on the research and innovation of data warehouses. Cloudberry Database aims to drive the development of open-source technologies, transition from open-source users to contributors and leaders, and create a world-class data warehouse platform.</p>]]></content:encoded>
+            <category>Engineering</category>
+        </item>
+        <item>
+            <title><![CDATA[December Newsletter - Cloudberry Database (2023/12)]]></title>
+            <link>https://cloudberry.apache.org/blog/cloudberrydb-dec-weekly</link>
+            <guid>https://cloudberry.apache.org/blog/cloudberrydb-dec-weekly</guid>
+            <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello there! We hope you're having a great time during the holiday season. Thank you for joining us for the latest Cloudberry Database project newsletter in December!]]></description>
+            <content:encoded><![CDATA[<p>Hello there! We hope you're having a great time during the holiday season. Thank you for joining us for the latest Cloudberry Database project newsletter in December!</p>
+<p>In this newsletter, we will be sharing the latest updates, improvements, and contributions made by our incredible members. Let's dive right in and explore what's new!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/cloudberrydb-dec-weekly#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>Add guc gp_enable_explain_motion_detail to show sender time when Explain Analyse <a href="https://github.com/cloudberrydb/cloudberrydb/pull/352" target="_blank" rel="noopener noreferrer">#352</a> by @songdongxiaoa2</li>
+<li>Turn on enable_shared_postgres_backend by default <a href="https://github.com/cloudberrydb/cloudberrydb/pull/351" target="_blank" rel="noopener noreferrer">#351</a> by @gfphoenix78</li>
+<li>Change  <code>MAX_TARABLE_SYMLINK_PATH_LENGTH</code>  to 200 <a href="https://github.com/cloudberrydb/cloudberrydb/pull/350" target="_blank" rel="noopener noreferrer">#350</a> by @shmiwy</li>
+<li>Fix compile error that pipe is redefined <a href="https://github.com/cloudberrydb/cloudberrydb/pull/349" target="_blank" rel="noopener noreferrer">#349</a> by @gfphoenix78</li>
+<li>[Answer Query Using Materialized Views] Correct PlannerInfo fields after rewritten. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/348" target="_blank" rel="noopener noreferrer">#348</a> by @avamingli</li>
+<li>Add macro RelationIsNonblockRelation to expand code path like AO/CO <a href="https://github.com/cloudberrydb/cloudberrydb/pull/347" target="_blank" rel="noopener noreferrer">#347</a> by @gfphoenix78</li>
+<li>Feature: Orca optimizor support pax storage table <a href="https://github.com/cloudberrydb/cloudberrydb/pull/346" target="_blank" rel="noopener noreferrer">#346</a> by @gfphoenix78</li>
+<li>Feature encoding option for custom table AM <a href="https://github.com/cloudberrydb/cloudberrydb/pull/343" target="_blank" rel="noopener noreferrer">#343</a> by @gfphoenix78</li>
+<li>[Answer Query Using Materialized Views] Support GROUP BY, GROUPING SETS, ROLLUP, CUBE in origin query. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/342" target="_blank" rel="noopener noreferrer">#342</a> by @avamingli</li>
+<li>Rename postgres.so to libpostgres.so <a href="https://github.com/cloudberrydb/cloudberrydb/pull/341" target="_blank" rel="noopener noreferrer">#341</a> by @gfphoenix78</li>
+<li>Fix issues about namespace pg_ext_aux <a href="https://github.com/cloudberrydb/cloudberrydb/pull/340" target="_blank" rel="noopener noreferrer">#340</a> by @gfphoenix78</li>
+<li>Dispatch by shared memory <a href="https://github.com/cloudberrydb/cloudberrydb/pull/339" target="_blank" rel="noopener noreferrer">#339</a> by @Ray-Eldath</li>
+<li>Add callback in TableAmRoutine to handle swapping relation files <a href="https://github.com/cloudberrydb/cloudberrydb/pull/338" target="_blank" rel="noopener noreferrer">#338</a> by @gfphoenix78</li>
+<li>Check index unique &amp; skip prefetch for non-heap relation <a href="https://github.com/cloudberrydb/cloudberrydb/pull/337" target="_blank" rel="noopener noreferrer">#337</a> by @gfphoenix78</li>
+<li>Add reloption support for custom table access method <a href="https://github.com/cloudberrydb/cloudberrydb/pull/336" target="_blank" rel="noopener noreferrer">#336</a> by @gfphoenix78</li>
+<li>Add custom object class support <a href="https://github.com/cloudberrydb/cloudberrydb/pull/335" target="_blank" rel="noopener noreferrer">#335</a> by @gfphoenix78</li>
+<li>Add namespace pg_ext_aux for extension <a href="https://github.com/cloudberrydb/cloudberrydb/pull/333" target="_blank" rel="noopener noreferrer">#333</a> by @gfphoenix78</li>
+<li>Add dml hook for extensions <a href="https://github.com/cloudberrydb/cloudberrydb/pull/332" target="_blank" rel="noopener noreferrer">#332</a> by @gfphoenix78</li>
+<li>Move struct workfile_set to workfile_mgr.c <a href="https://github.com/cloudberrydb/cloudberrydb/pull/331" target="_blank" rel="noopener noreferrer">#331</a> by @gfphoenix78</li>
+<li>Fix \d in psql to show correct storage name from pg_am <a href="https://github.com/cloudberrydb/cloudberrydb/pull/330" target="_blank" rel="noopener noreferrer">#330</a> by @gfphoenix78</li>
+<li>Refactor the table AM: scan_begin_extractcolumns to contain execution context <a href="https://github.com/cloudberrydb/cloudberrydb/pull/329" target="_blank" rel="noopener noreferrer">#329</a> by @gfphoenix78</li>
+<li>Expose some functions to support PAX for partition tables <a href="https://github.com/cloudberrydb/cloudberrydb/pull/328" target="_blank" rel="noopener noreferrer">#328</a> by @gfphoenix78</li>
+<li>Enable SingleQE join with SegmentGeneralWorkers <a href="https://github.com/cloudberrydb/cloudberrydb/pull/327" target="_blank" rel="noopener noreferrer">#327</a> by @avamingli</li>
+<li>Fix: may cause UAF problem in get_size_from_segDBs <a href="https://github.com/cloudberrydb/cloudberrydb/pull/326" target="_blank" rel="noopener noreferrer">#326</a> by @jiaqizho</li>
+<li>Fix: Illegal PGnotify declaration <a href="https://github.com/cloudberrydb/cloudberrydb/pull/325" target="_blank" rel="noopener noreferrer">#325</a>  by @jiaqizho</li>
+<li>Doc: update README.md for CloudberryDB <a href="https://github.com/cloudberrydb/cloudberrydb/pull/324" target="_blank" rel="noopener noreferrer">#324</a> by @tuhaihe</li>
+<li>[Answer Query Using Materialized Views] Compute Aggregations on Materialized Views. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/322" target="_blank" rel="noopener noreferrer">#322</a> by @avamingli</li>
+<li>[Answer Query Using Materialized Views] Refactor codes to new file aqumv.c <a href="https://github.com/cloudberrydb/cloudberrydb/pull/321" target="_blank" rel="noopener noreferrer">#321</a> by @avamingli</li>
+<li>Use FDW to query multiple servers as shards <a href="https://github.com/cloudberrydb/cloudberrydb/pull/320" target="_blank" rel="noopener noreferrer">#320</a> by @oppenheimer01</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/cloudberrydb-dec-weekly#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>[Bug] [AQUMV]ERROR: invalid attnum 3 for relation "aqumv_t2" (ruleutils.c:7260) <a href="https://github.com/cloudberrydb/cloudberrydb/issues/344" target="_blank" rel="noopener noreferrer">#344</a> by @avamingli</li>
+<li>[Bug] Run  <code>gpstop -m</code>  should shutdown with mode  <code>maintenance</code>  instead of  <code>smart</code> <a href="https://github.com/cloudberrydb/cloudberrydb/issues/334" target="_blank" rel="noopener noreferrer">#334</a> by @tuhaihe</li>
+<li>Clean up CBDB_PARALLEL_FIXME <a href="https://github.com/cloudberrydb/cloudberrydb/issues/323" target="_blank" rel="noopener noreferrer">#323</a> by @avamingli</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tools-and-more">Tools and more<a href="https://cloudberry.apache.org/blog/cloudberrydb-dec-weekly#tools-and-more" class="hash-link" aria-label="Direct link to Tools and more" title="Direct link to Tools and more">​</a></h2>
+<p>We have recently released the backup utility,  <a href="https://github.com/cloudberrydb/gpbackup" target="_blank" rel="noopener noreferrer">gpbackup for CloudberryDB</a>. We invite you to try it out and look forward to the upcoming tools and extensions for CloudberryDB.</p>
+<p>Additionally, we have finished the prototype work for our new website, which will be developed in the coming months. Please stay tuned.</p>
+<p>We also want to give a shoutout to our CloudberryDB documentation team who are working hard to verify and organize documents. Thank you so much for your dedication!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/cloudberrydb-dec-weekly#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@songdongxiaoa2, @gfphoenix78, @shmiwy, @avamingli, @Ray-Eldath, @jiaqizho, @tuhaihe, @oppenheimer01, @IdaLee666, @TomShawn</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/cloudberrydb-dec-weekly#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our  <a href="https://cloudberrydb.org/contribute/how-to-contribute" target="_blank" rel="noopener noreferrer">contribution guide</a>  is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find  <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">support</a>  here. Let us know if you have any questions or feedback - we're always here to help!</p>
+<p>Join us and be part of our community!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[Nov Newsletter - Cloudberry Database (2023/11)]]></title>
+            <link>https://cloudberry.apache.org/blog/cloudberrydb-nov-weekly</link>
+            <guid>https://cloudberry.apache.org/blog/cloudberrydb-nov-weekly</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello there! Thank you for joining us for the November newsletter of the Cloudberry Database project!]]></description>
+            <content:encoded><![CDATA[<p>Hello there! Thank you for joining us for the November newsletter of the Cloudberry Database project!</p>
+<p>We are thrilled to have you as a part of our community. In this newsletter, we will be sharing the latest updates, improvements, and contributions made by our incredible members. We have a lot to talk about, from exciting new features to bug fixes, so let's dive right in!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="highlight-cloudberry-database-bootcamp">Highlight: Cloudberry Database Bootcamp<a href="https://cloudberry.apache.org/blog/cloudberrydb-nov-weekly#highlight-cloudberry-database-bootcamp" class="hash-link" aria-label="Direct link to Highlight: Cloudberry Database Bootcamp" title="Direct link to Highlight: Cloudberry Database Bootcamp">​</a></h2>
+<p>A few weeks ago, we announced the <a href="https://github.com/cloudberrydb/bootcamp" target="_blank" rel="noopener noreferrer">Cloudberry Database Bootcamp</a> program, a comprehensive program that provides a hands-on experience with Cloudberry Database. It is tailored to help you understand Cloudberry Database's capabilities and features a range of materials, including tutorials, sample code, and crash courses. If you're new to Cloudberry Database, this bootcamp is the perfect place to begin. You can check the <a href="https://cloudberry.apache.org/blog/introducing-cloudberrydb-bootcamp">Announcement blog post</a> for more details.</p>
+<p><img decoding="async" loading="lazy" alt="CloudberryDB Sandbox" src="https://cloudberry.apache.org/assets/images/cbdb-sandbox-d6adf002f293233883e023dc795c54d9.png" width="2164" height="1488" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/cloudberrydb-nov-weekly#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>Feature: add user-defined index access method <a href="https://github.com/cloudberrydb/cloudberrydb/pull/315" target="_blank" rel="noopener noreferrer">#315</a>  by @hw118118</li>
+<li>Judge whether commands need to be dispatched to QEs in QD <a href="https://github.com/cloudberrydb/cloudberrydb/pull/314" target="_blank" rel="noopener noreferrer">#314</a>  by @wenchaozhang-123</li>
+<li>make main_manifest table not shared <a href="https://github.com/cloudberrydb/cloudberrydb/pull/311" target="_blank" rel="noopener noreferrer">#311</a>  by @roseduan</li>
+<li>Fix: enable trigger throught FDW in the serverless architecture. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/309" target="_blank" rel="noopener noreferrer">#309</a>  by @lss602726449</li>
+<li>[Bug][github-actions] icw-parallel-test add MAX_CONNECTIONS <a href="https://github.com/cloudberrydb/cloudberrydb/pull/308" target="_blank" rel="noopener noreferrer">#308</a>  by @smartyhero</li>
+<li>Add pg_upgrade and gpAdminLogs log to CI failure artifact <a href="https://github.com/cloudberrydb/cloudberrydb/pull/306" target="_blank" rel="noopener noreferrer">#306</a>  by @Ray-Eldath</li>
+<li>Add interface and export struct to public. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/304" target="_blank" rel="noopener noreferrer">#304</a>  by @HuSen8891</li>
+<li>Doc: update the terminal info to CloudberryDB <a href="https://github.com/cloudberrydb/cloudberrydb/pull/300" target="_blank" rel="noopener noreferrer">#300</a>  by @tuhaihe</li>
+<li>Answer Query Using Materialized Views <a href="https://github.com/cloudberrydb/cloudberrydb/pull/298" target="_blank" rel="noopener noreferrer">#298</a>  by @avamingli</li>
+<li>Fix bug deduplicate elemlist is null when elemlist size is 1. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/297" target="_blank" rel="noopener noreferrer">#297</a>  by @MisterRaindrop</li>
+<li>Support cloud manager <a href="https://github.com/cloudberrydb/cloudberrydb/pull/296" target="_blank" rel="noopener noreferrer">#296</a>  by @roseduan</li>
+<li>Use pg_class instead of gp_segment_configuration to test Entry. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/294" target="_blank" rel="noopener noreferrer">#294</a>  by @avamingli</li>
+<li>Rename GP parallel words to CBDB parallel. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/293" target="_blank" rel="noopener noreferrer">#293</a>  by @avamingli</li>
+<li>Fix explain bad indent when showing operatorMem. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/292" target="_blank" rel="noopener noreferrer">#292</a>  by @avamingli</li>
+<li>Provide gpdemo.sh deployment script <a href="https://github.com/cloudberrydb/cloudberrydb/pull/291" target="_blank" rel="noopener noreferrer">#291</a>  by @Ray-Eldath</li>
+<li>Modify internal address in deploy/vagrant <a href="https://github.com/cloudberrydb/cloudberrydb/pull/290" target="_blank" rel="noopener noreferrer">#290</a>  by @Zhangbaowen-Hashdata</li>
+<li>Revert "Fix explain bad indent when showing operatorMem." <a href="https://github.com/cloudberrydb/cloudberrydb/pull/289" target="_blank" rel="noopener noreferrer">#289</a>  by @avamingli</li>
+<li>Fix explain bad indent when showing operatorMem. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/288" target="_blank" rel="noopener noreferrer">#288</a>  by @avamingli</li>
+<li>Doc: update pull request template for CBDB <a href="https://github.com/cloudberrydb/cloudberrydb/pull/287" target="_blank" rel="noopener noreferrer">#287</a>  by @tuhaihe</li>
+<li>Add cache invaladation synchronization amoung QD and QEs. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/286" target="_blank" rel="noopener noreferrer">#286</a>  by @wenchaozhang-123</li>
+<li>Add motionhazard to the outer side of parallel aware join.(fix flaky incorrect results of agg) <a href="https://github.com/cloudberrydb/cloudberrydb/pull/284" target="_blank" rel="noopener noreferrer">#284</a>  by @avamingli</li>
+<li>Reduce external-fts CI pipeline to only icw-test <a href="https://github.com/cloudberrydb/cloudberrydb/pull/282" target="_blank" rel="noopener noreferrer">#282</a>  by @Ray-Eldath</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/cloudberrydb-nov-weekly#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>[Bug] abscissa type not supported, from sqlancer test <a href="https://github.com/cloudberrydb/cloudberrydb/issues/317" target="_blank" rel="noopener noreferrer">#317</a>  by @congxuebin</li>
+<li>'Parallel Safety' in CBDB style parallel plan <a href="https://github.com/cloudberrydb/cloudberrydb/issues/307" target="_blank" rel="noopener noreferrer">#307</a>  by @avamingli</li>
+<li>[Bug] regress/aggregates_optimizer due to gporca fallback <a href="https://github.com/cloudberrydb/cloudberrydb/issues/302" target="_blank" rel="noopener noreferrer">#302</a>  by @Ray-Eldath</li>
+<li>[Bug] Cluster down during regress/createdb <a href="https://github.com/cloudberrydb/cloudberrydb/issues/301" target="_blank" rel="noopener noreferrer">#301</a>  by @Ray-Eldath</li>
+<li>[Bug] explain data change on operatorMem, mpp22698 test failed <a href="https://github.com/cloudberrydb/cloudberrydb/issues/295" target="_blank" rel="noopener noreferrer">#295</a>  by @congxuebin</li>
+<li>[Bug] unexpected reltuples number in pg_class after delete and vacuum  <a href="https://github.com/cloudberrydb/cloudberrydb/issues/273" target="_blank" rel="noopener noreferrer">#273</a>  by @congxuebin</li>
+<li>[Bug] failed assertion "mp != nullptr" in CMemoryPoolManager.cpp::Destroy (gporca/libgpos) <a href="https://github.com/cloudberrydb/cloudberrydb/issues/285" target="_blank" rel="noopener noreferrer">#285</a>  by @Ray-Eldath</li>
+<li>[Bug] regress/stats test failure on external_fts <a href="https://github.com/cloudberrydb/cloudberrydb/issues/281" target="_blank" rel="noopener noreferrer">#281</a>  by @Ray-Eldath</li>
+<li>[Bug] There is a problem with the distribution strategy of the orca unionall operator. <a href="https://github.com/cloudberrydb/cloudberrydb/issues/279" target="_blank" rel="noopener noreferrer">#279</a>  by @Light-City</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="website">Website<a href="https://cloudberry.apache.org/blog/cloudberrydb-nov-weekly#website" class="hash-link" aria-label="Direct link to Website" title="Direct link to Website">​</a></h2>
+<p>Currently, we are working on the new version of the Cloudberry Database website, which will have a fresh and modern design in the upcoming weeks. Additionally, we are diligently working on the Cloudberry Database user documentation. Stay tuned for more exciting news!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/cloudberrydb-nov-weekly#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@wenchaozhang-123, @hw118118, @roseduan, @lss602726449, @smartyhero, @HuSen8891, @Ray-Eldath, @tuhaihe, @avamingli, @MisterRaindrop, @Zhangbaowen-Hashdata, @congxuebin, @Light-City, @ginobiliwang, @TomShawn, @RyanWei, @liang8283</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/cloudberrydb-nov-weekly#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute/how-to-contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find support <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Join us and be part of our community!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Cloudberry Database Bootcamp]]></title>
+            <link>https://cloudberry.apache.org/blog/introducing-cloudberrydb-bootcamp</link>
+            <guid>https://cloudberry.apache.org/blog/introducing-cloudberrydb-bootcamp</guid>
+            <pubDate>Tue, 14 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are excited to announce the Cloudberry Database Bootcamp program!]]></description>
+            <content:encoded><![CDATA[<p>We are excited to announce the <a href="https://github.com/cloudberrydb/bootcamp" target="_blank" rel="noopener noreferrer">Cloudberry Database Bootcamp</a> program!</p>
+<p>The Cloudberry Database Bootcamp is a comprehensive program that provides a hands-on experience with Cloudberry Database. It is tailored to help you gain a basic understanding of Cloudberry Database's capabilities and features a range of materials, including tutorials, sample code, and crash courses. If you're new to Cloudberry Database, this bootcamp is the perfect place to begin.</p>
+<p><img decoding="async" loading="lazy" alt="CloudberryDB Sandbox" src="https://cloudberry.apache.org/assets/images/cbdb-sandbox-d6adf002f293233883e023dc795c54d9.png" width="2164" height="1488" class="img_ev3q"></p>
+<p>The bootcamp includes step-by-step tutorials to get you started with the Cloudberry Database sandbox environment and its key features, real-world examples of best practices, and hands-on challenges to reinforce your understanding and put your new skills to the test.</p>
+<p>Getting started is easy, as the program is designed to be easy to follow, with clear instructions and examples that will help you learn at your own pace. Whether you're a data scientist, software developer, or someone who wants to learn more about Cloudberry Database, the Cloudberry Database Bootcamp is the perfect resource for you. You can access the program on <a href="https://github.com/cloudberrydb/bootcamp" target="_blank" rel="noopener noreferrer">GitHub</a>, where you will find the key resources you need to embark on your database learning journey.</p>
+<p>At Cloudberry Database, we believe in community engagement and contributions. We welcome developers and database enthusiasts to join us in improving the Cloudberry Database Bootcamp. Your contributions, whether through feedback or spreading the word, are invaluable in shaping the future of Cloudberry Database.</p>
+<p>We are eager to hear your feedback and experiences as you explore the Cloudberry Database Bootcamp. Join the conversation on <a href="https://cloudberrydb.org/community/slack" target="_blank" rel="noopener noreferrer">Slack</a> to share your insights with the community.</p>
+<p>We can't wait to see how this Bootcamp inspires your discoveries in the world of Cloudberry Database.</p>
+<p>Happy exploring!</p>]]></content:encoded>
+            <category>Announcement</category>
+        </item>
+        <item>
+            <title><![CDATA[Oct Newsletter - Cloudberry Database (2023/10)]]></title>
+            <link>https://cloudberry.apache.org/blog/cloudberrydb-oct-weekly</link>
+            <guid>https://cloudberry.apache.org/blog/cloudberrydb-oct-weekly</guid>
+            <pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hey there! Welcome to our October newsletter for the Cloudberry Database project!]]></description>
+            <content:encoded><![CDATA[<p>Hey there! Welcome to our October newsletter for the Cloudberry Database project!</p>
+<p>We're so excited to have you on board with us. In this newsletter, we'll be sharing all the latest updates, improvements, and contributions made by our amazing community. From cool new features to pesky bug fixes, we have a lot to chat about, so let's get started!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/cloudberrydb-oct-weekly#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>Add README.Rhel-Rocky.bash <a href="https://github.com/cloudberrydb/cloudberrydb/pull/272" target="_blank" rel="noopener noreferrer">#272</a> by @Zhangbaowen-Hashdata</li>
+<li>Add combocid dispatch from QD to QE <a href="https://github.com/cloudberrydb/cloudberrydb/pull/271" target="_blank" rel="noopener noreferrer">#271</a> by @lss602726449</li>
+<li>Update license headers for new CBDB source files <a href="https://github.com/cloudberrydb/cloudberrydb/pull/268" target="_blank" rel="noopener noreferrer">#268</a> by @tuhaihe</li>
+<li>Doc: Update Linux build docs for Rocky and RHEL <a href="https://github.com/cloudberrydb/cloudberrydb/pull/267" target="_blank" rel="noopener noreferrer">#267</a> by @TomShawn</li>
+<li>Fix pg_password_history gpcheckcat consitent check failed. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/266" target="_blank" rel="noopener noreferrer">#266</a> by @wenchaozhang-123</li>
+<li>Rename 'Parallel Broadcast Motion' to 'Broadcast Workers Motion' <a href="https://github.com/cloudberrydb/cloudberrydb/pull/265" target="_blank" rel="noopener noreferrer">#265</a> by @avamingli</li>
+<li>Correct shared hash table rows estimation <a href="https://github.com/cloudberrydb/cloudberrydb/pull/263" target="_blank" rel="noopener noreferrer">#263</a> by @avamingli</li>
+<li>Limit CI concurrency to one per PR, redux <a href="https://github.com/cloudberrydb/cloudberrydb/pull/261" target="_blank" rel="noopener noreferrer">#261</a> by @Ray-Eldath</li>
+<li>Try to fix hashjoin_spill avg result diff in parallel mode <a href="https://github.com/cloudberrydb/cloudberrydb/pull/260" target="_blank" rel="noopener noreferrer">#260</a> by @avamingli</li>
+<li>Add parallel semi join cases <a href="https://github.com/cloudberrydb/cloudberrydb/pull/257" target="_blank" rel="noopener noreferrer">#257</a> by @avamingli</li>
+<li>Enhancement: github action support run external_fts test case <a href="https://github.com/cloudberrydb/cloudberrydb/pull/256" target="_blank" rel="noopener noreferrer">#256</a> by @smartyhero</li>
+<li>Add: some interfaces to get/set transaction state and xids <a href="https://github.com/cloudberrydb/cloudberrydb/pull/255" target="_blank" rel="noopener noreferrer">#255</a> by @HuSen8891</li>
+<li>Ignore cases related to external_fts <a href="https://github.com/cloudberrydb/cloudberrydb/pull/254" target="_blank" rel="noopener noreferrer">#254</a> by @avamingli</li>
+<li>Add relcache invaladation synchronization. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/252" target="_blank" rel="noopener noreferrer">#252</a> by @wenchaozhang-123</li>
+<li>Fix warehouse regress failures <a href="https://github.com/cloudberrydb/cloudberrydb/pull/249" target="_blank" rel="noopener noreferrer">#249</a> by @roseduan</li>
+<li>Open proper AO/AOCS segment files according to data volume <a href="https://github.com/cloudberrydb/cloudberrydb/pull/248" target="_blank" rel="noopener noreferrer">#248</a> by @avamingli</li>
+<li>Loosen Parallel Refresh coefficient. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/247" target="_blank" rel="noopener noreferrer">#247</a> by @avamingli</li>
+<li>Adjust the method of loading the external preloaded shared libraries <a href="https://github.com/cloudberrydb/cloudberrydb/pull/242" target="_blank" rel="noopener noreferrer">#242</a> by @MisterRaindrop</li>
+<li>Fix test artifact upload path incorrectly <a href="https://github.com/cloudberrydb/cloudberrydb/pull/240" target="_blank" rel="noopener noreferrer">#240</a> by @Zhangbaowen-Hashdata</li>
+<li>Fix explain(locus) show NULL. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/238" target="_blank" rel="noopener noreferrer">#238</a> by @avamingli</li>
+<li>Doc: update the codebase information in README.md <a href="https://github.com/cloudberrydb/cloudberrydb/pull/237" target="_blank" rel="noopener noreferrer">#237</a> by @tuhaihe</li>
+<li>Add: new hook for plugins to validate the relation <a href="https://github.com/cloudberrydb/cloudberrydb/pull/236" target="_blank" rel="noopener noreferrer">#236</a> by @HuSen8891</li>
+<li>Drop: Delete Windows development documentation <a href="https://github.com/cloudberrydb/cloudberrydb/pull/235" target="_blank" rel="noopener noreferrer">#235</a> by @Zhangbaowen-Hashdata</li>
+<li>Implement drop warehouse. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/234" target="_blank" rel="noopener noreferrer">#234</a> by @wenchaozhang-123</li>
+<li>Change myTempNamespace from static variable to extern variable. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/232" target="_blank" rel="noopener noreferrer">#232</a> by @wenchaozhang-123</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="proposals--ideas">Proposals &amp; Ideas<a href="https://cloudberry.apache.org/blog/cloudberrydb-oct-weekly#proposals--ideas" class="hash-link" aria-label="Direct link to Proposals &amp; Ideas" title="Direct link to Proposals &amp; Ideas">​</a></h2>
+<ul>
+<li>[Ideas] CloudberryUI need to support cutomize storage locations. <a href="https://github.com/orgs/cloudberrydb/discussions/227" target="_blank" rel="noopener noreferrer">#227</a> by @RyanWei</li>
+<li>[Proposal] Process Management Refactor <a href="https://github.com/orgs/cloudberrydb/discussions/243" target="_blank" rel="noopener noreferrer">#243</a> by @avamingli</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/cloudberrydb-oct-weekly#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>[Bug] unexpected reltuples number in pg_class after delete and vacuum <a href="https://github.com/cloudberrydb/cloudberrydb/issues/273" target="_blank" rel="noopener noreferrer">#273</a> by @congxuebin</li>
+<li>[Bug] UNIQUE index must contain all columns in the table's distribution key <a href="https://github.com/cloudberrydb/cloudberrydb/issues/270" target="_blank" rel="noopener noreferrer">#270</a> by @congxuebin</li>
+<li>[Bug] unstable pg_upgrade failed <a href="https://github.com/cloudberrydb/cloudberrydb/issues/262" target="_blank" rel="noopener noreferrer">#262</a> by @avamingli</li>
+<li>[Bug] flaky incorrect results of hashjoin_spill in parallel mode on x86_64 <a href="https://github.com/cloudberrydb/cloudberrydb/issues/259" target="_blank" rel="noopener noreferrer">#259</a> by @avamingli</li>
+<li>[Bug] Gain 1 more row than expected, from query on session_state.session_level_memory_consumption <a href="https://github.com/cloudberrydb/cloudberrydb/issues/253" target="_blank" rel="noopener noreferrer">#253</a> by @congxuebin</li>
+<li>[Bug] gpcheckcat 'inconsistent' test failed <a href="https://github.com/cloudberrydb/cloudberrydb/issues/251" target="_blank" rel="noopener noreferrer">#251</a> by @congxuebin</li>
+<li>[Bug] test case segwalrep/dtm_recovery_on_standby hang <a href="https://github.com/cloudberrydb/cloudberrydb/issues/250" target="_blank" rel="noopener noreferrer">#250</a> by @smartyhero</li>
+<li>[Bug] rpt_joins case failed <a href="https://github.com/cloudberrydb/cloudberrydb/issues/246" target="_blank" rel="noopener noreferrer">#246</a> by @smartyhero</li>
+<li>[Bug] dispatch case failed <a href="https://github.com/cloudberrydb/cloudberrydb/issues/245" target="_blank" rel="noopener noreferrer">#245</a> by @smartyhero</li>
+<li>[Bug] misc_sanity case failed <a href="https://github.com/cloudberrydb/cloudberrydb/issues/244" target="_blank" rel="noopener noreferrer">#244</a> by @smartyhero</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/cloudberrydb-oct-weekly#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@Zhangbaowen-Hashdata, @lss602726449, @tuhaihe, @TomShawn, @wenchaozhang-123, @avamingli, @Ray-Eldath, @smartyhero, @HuSen8891, @roseduan, @MisterRaindrop, @congxuebin, @RyanWei</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/cloudberrydb-oct-weekly#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community welcomes everyone to contribute, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute/how-to-contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer various channels for community members to discuss, seek help, provide feedback, and chat. You can find support <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Join us and be part of our community!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[Sep Newsletter - Cloudberry Database (2023/09)]]></title>
+            <link>https://cloudberry.apache.org/blog/cloudberrydb-sep-weekly</link>
+            <guid>https://cloudberry.apache.org/blog/cloudberrydb-sep-weekly</guid>
+            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the September monthly newsletter of the Cloudberry Database Community! Our goal with this newsletter is to keep you informed about the most recent developments, trends, and events within our community, as well as to highlight the impressive contributions and accomplishments of our members.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the September monthly newsletter of the Cloudberry Database Community! Our goal with this newsletter is to keep you informed about the most recent developments, trends, and events within our community, as well as to highlight the impressive contributions and accomplishments of our members.</p>
+<p>We invite you to join us in embracing the potential of open source technology as we work collaboratively to build an even stronger community.</p>
+<p>Let's get started!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/cloudberrydb-sep-weekly#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>Docs: merge docs for CBDB compilation on Linux systems <a href="https://github.com/cloudberrydb/cloudberrydb/pull/224" target="_blank" rel="noopener noreferrer">#224</a> by @TomShawn</li>
+<li>New altertable rewrite dispatch policy <a href="https://github.com/cloudberrydb/cloudberrydb/pull/223" target="_blank" rel="noopener noreferrer">#223</a> by @wangliang03</li>
+<li>bugfix: support hashdata tableam in Orca <a href="https://github.com/cloudberrydb/cloudberrydb/pull/222" target="_blank" rel="noopener noreferrer">#222</a> by @gongxun0928</li>
+<li>[WIP]Add git hooks for Cloudberry Database development <a href="https://github.com/cloudberrydb/cloudberrydb/pull/221" target="_blank" rel="noopener noreferrer">#221</a> by @tuhaihe</li>
+<li>Doc: update the building guide for MacOS <a href="https://github.com/cloudberrydb/cloudberrydb/pull/220" target="_blank" rel="noopener noreferrer">#220</a> by @Zhangbaowen-Hashdata</li>
+<li>support alter table for hashdata format <a href="https://github.com/cloudberrydb/cloudberrydb/pull/219" target="_blank" rel="noopener noreferrer">#219</a> by @wangliang03</li>
+<li>Fix incorrect index-&gt;reltuples after VACUUM <a href="https://github.com/cloudberrydb/cloudberrydb/pull/217" target="_blank" rel="noopener noreferrer">#217</a> by @lss602726449</li>
+<li>Add regress pipeline for branch union_store_catalog <a href="https://github.com/cloudberrydb/cloudberrydb/pull/211" target="_blank" rel="noopener noreferrer">#211</a> by @wenchaozhang-123</li>
+<li>change storage_am related catalog table main_manifest field type from… <a href="https://github.com/cloudberrydb/cloudberrydb/pull/210" target="_blank" rel="noopener noreferrer">#210</a> by @wangliang03</li>
+<li>Add vacuum full in serverless <a href="https://github.com/cloudberrydb/cloudberrydb/pull/209" target="_blank" rel="noopener noreferrer">#209</a> by @roseduan</li>
+<li>Implement extensible libpq protocol <a href="https://github.com/cloudberrydb/cloudberrydb/pull/208" target="_blank" rel="noopener noreferrer">#208</a> by @wenchaozhang-123</li>
+<li>support analyze for unionstore table in cloudberry <a href="https://github.com/cloudberrydb/cloudberrydb/pull/207" target="_blank" rel="noopener noreferrer">#207</a> by @gongxun0928</li>
+<li>SingleNode deployment <a href="https://github.com/cloudberrydb/cloudberrydb/pull/206" target="_blank" rel="noopener noreferrer">#206</a> by @Ray-Eldath</li>
+<li>Add hooks for plugins to get control in transientrel_init/intorel_initplan. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/203" target="_blank" rel="noopener noreferrer">#203</a> by @HuSen8891</li>
+<li>Add main_manifest catalog table <a href="https://github.com/cloudberrydb/cloudberrydb/pull/202" target="_blank" rel="noopener noreferrer">#202</a> by @roseduan</li>
+<li>Fix unportable scripts on macOS <a href="https://github.com/cloudberrydb/cloudberrydb/pull/201" target="_blank" rel="noopener noreferrer">#201</a> by @Ray-Eldath</li>
+<li>Doc: update README.md for Cloudberry Database <a href="https://github.com/cloudberrydb/cloudberrydb/pull/199" target="_blank" rel="noopener noreferrer">#199</a> by @tuhaihe</li>
+<li>Fix portability issues on macOS with gcc-13 <a href="https://github.com/cloudberrydb/cloudberrydb/pull/198" target="_blank" rel="noopener noreferrer">#198</a> by @Ray-Eldath</li>
+<li>Feature: building Postgres backend into shared library <a href="https://github.com/cloudberrydb/cloudberrydb/pull/197" target="_blank" rel="noopener noreferrer">#197</a> by @lss602726449</li>
+<li>Feature/add ext dml init fini hook for custom table am <a href="https://github.com/cloudberrydb/cloudberrydb/pull/196" target="_blank" rel="noopener noreferrer">#196</a> by @gongxun0928</li>
+<li>Feature: separation of storage and compute <a href="https://github.com/cloudberrydb/cloudberrydb/pull/192" target="_blank" rel="noopener noreferrer">#192</a> by @HuSen8891</li>
+<li>Feature: lazy initialize orca optimizer <a href="https://github.com/cloudberrydb/cloudberrydb/pull/191" target="_blank" rel="noopener noreferrer">#191</a> by @lss602726449</li>
+<li>Add extensible smgr slot for other storage format. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/190" target="_blank" rel="noopener noreferrer">#190</a> by @wenchaozhang-123</li>
+<li>Feature: Support custom wal rmgr <a href="https://github.com/cloudberrydb/cloudberrydb/pull/189" target="_blank" rel="noopener noreferrer">#189</a> by @gfphoenix78</li>
+<li>Update license headers for new CBDB source files <a href="https://github.com/cloudberrydb/cloudberrydb/pull/187" target="_blank" rel="noopener noreferrer">#187</a> by @tuhaihe</li>
+<li>Fix warehouse test when external fts enabled <a href="https://github.com/cloudberrydb/cloudberrydb/pull/182" target="_blank" rel="noopener noreferrer">#182</a> by @roseduan</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="proposals--ideas">Proposals &amp; Ideas<a href="https://cloudberry.apache.org/blog/cloudberrydb-sep-weekly#proposals--ideas" class="hash-link" aria-label="Direct link to Proposals &amp; Ideas" title="Direct link to Proposals &amp; Ideas">​</a></h2>
+<ul>
+<li>[Feature Requests] Multiple character delimiter needs to be supported <a href="https://github.com/orgs/cloudberrydb/discussions/200" target="_blank" rel="noopener noreferrer">#200</a> by @liang8283</li>
+<li>[Proposal] Support SingleNode Deployment <a href="https://github.com/orgs/cloudberrydb/discussions/188" target="_blank" rel="noopener noreferrer">#188</a> by @Ray-Eldath</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/cloudberrydb-sep-weekly#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>[Bug] Insert into a ao relation with 32 concurrent transactions failled <a href="https://github.com/cloudberrydb/cloudberrydb/issues/216" target="_blank" rel="noopener noreferrer">#216</a> by @shmiwy</li>
+<li>[Bug] <code>gp_aoseg_name</code> may return wrong value. <a href="https://github.com/cloudberrydb/cloudberrydb/issues/215" target="_blank" rel="noopener noreferrer">#215</a> by @shmiwy</li>
+<li>[Bug] <code>reltuples</code> in <code>pg_class</code> may be wrong for index <a href="https://github.com/cloudberrydb/cloudberrydb/issues/214" target="_blank" rel="noopener noreferrer">#214</a> by @shmiwy</li>
+<li>[Bug] pg_relation_size may get wrong result. <a href="https://github.com/cloudberrydb/cloudberrydb/issues/213" target="_blank" rel="noopener noreferrer">#213</a> by @shmiwy</li>
+<li>[Bug] count(*) query crashed and db in recovery mode <a href="https://github.com/cloudberrydb/cloudberrydb/issues/212" target="_blank" rel="noopener noreferrer">#212</a> by @liyxbeijing</li>
+<li>[Bug] Report some errors after using new user-defined access methods <a href="https://github.com/cloudberrydb/cloudberrydb/issues/195" target="_blank" rel="noopener noreferrer">#195</a> by @hw118118</li>
+<li>[Bug] gpinitsystem failed with missing library. <a href="https://github.com/cloudberrydb/cloudberrydb/issues/194" target="_blank" rel="noopener noreferrer">#194</a> by @RyanWei</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/cloudberrydb-sep-weekly#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@TomShawn, @wangliang03, @gongxun0928, @tuhaihe, @Zhangbaowen-Hashdata, @lss602726449, @wenchaozhang-123, @roseduan, @Ray-Eldath, @HuSen8891, @gfphoenix78, @liang8283, @shmiwy, @liyxbeijing, @hw118118, @RyanWei</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join us<a href="https://cloudberry.apache.org/blog/cloudberrydb-sep-weekly#join-us" class="hash-link" aria-label="Direct link to Join us" title="Direct link to Join us">​</a></h2>
+<p>The Cloudberry Database community is open to contributions from anyone, regardless of their level of experience. We encourage all types of contributions, no matter how small. Our <a href="https://cloudberrydb.org/contribute/how-to-contribute" target="_blank" rel="noopener noreferrer">contribution guide</a> is available to help you get started with the process.</p>
+<p>In addition, we offer a variety of channels for community members to discuss, seek help, provide feedback, and chat. You can find support <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>We wish you a happy weekend and look forward to seeing you again soon!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+        <item>
+            <title><![CDATA[August Newsletter - Cloudberry Database (2023/08)]]></title>
+            <link>https://cloudberry.apache.org/blog/cloudberrydb-august-weekly</link>
+            <guid>https://cloudberry.apache.org/blog/cloudberrydb-august-weekly</guid>
+            <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hi, welcome to our Cloudberry Database project newsletter! From this month, we will initiate biweekly/monthly newsletters to gather information and new statuses around the Cloudberry Database.]]></description>
+            <content:encoded><![CDATA[<p>Hi, welcome to our Cloudberry Database project newsletter! From this month, we will initiate biweekly/monthly newsletters to gather information and new statuses around the Cloudberry Database.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pull-requests">Pull Requests<a href="https://cloudberry.apache.org/blog/cloudberrydb-august-weekly#pull-requests" class="hash-link" aria-label="Direct link to Pull Requests" title="Direct link to Pull Requests">​</a></h2>
+<ul>
+<li>[FIXME] Wrong results on main branch for INDF query <a href="https://github.com/cloudberrydb/cloudberrydb/pull/180" target="_blank" rel="noopener noreferrer">#180</a> by @wenchaozhang-123</li>
+<li>Doc: update security policy and PR template <a href="https://github.com/cloudberrydb/cloudberrydb/pull/176" target="_blank" rel="noopener noreferrer">#176</a> by @tuhaihe</li>
+<li>Catchup 1X_STABLE <a href="https://github.com/cloudberrydb/cloudberrydb/pull/175" target="_blank" rel="noopener noreferrer">#175</a> by @Ray-Eldath</li>
+<li>Add extensible smgr slot for other storage format. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/173" target="_blank" rel="noopener noreferrer">#173</a> by @wenchaozhang-123</li>
+<li>Doc: update editor settings for CloudberryDB <a href="https://github.com/cloudberrydb/cloudberrydb/pull/171" target="_blank" rel="noopener noreferrer">#171</a> by @tuhaihe</li>
+<li>Doc: update the building guide for Linux <a href="https://github.com/cloudberrydb/cloudberrydb/pull/170" target="_blank" rel="noopener noreferrer">#170</a> by @Zhangbaowen-Hashdata</li>
+<li>Feature: add user-defined index access method <a href="https://github.com/cloudberrydb/cloudberrydb/pull/169" target="_blank" rel="noopener noreferrer">#169</a> by @hw118118</li>
+<li>Fix create ao table set parallel_workers doesn't take effect <a href="https://github.com/cloudberrydb/cloudberrydb/pull/168" target="_blank" rel="noopener noreferrer">#168</a> by @Ray-Eldath</li>
+<li>Support create/drop database in serverless architecture <a href="https://github.com/cloudberrydb/cloudberrydb/pull/163" target="_blank" rel="noopener noreferrer">#163</a> by @roseduan</li>
+<li>Fix: use RelFileNodeId instead of Oid for relfilenode. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/161" target="_blank" rel="noopener noreferrer">#161</a> by @HuSen8891</li>
+<li>Adjust the method of loading the external preloaded shared libraries <a href="https://github.com/cloudberrydb/cloudberrydb/pull/158" target="_blank" rel="noopener noreferrer">#158</a> by @MisterRaindrop</li>
+<li>Change json_object name to avoid conflict with jansson lib. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/157" target="_blank" rel="noopener noreferrer">#157</a> by @MisterRaindrop</li>
+<li>Fix unstable tests reindextable_while_reindex_idx <a href="https://github.com/cloudberrydb/cloudberrydb/pull/156" target="_blank" rel="noopener noreferrer">#156</a> by @Ray-Eldath</li>
+<li>Adjust the method of loading the external preloaded shared libraries <a href="https://github.com/cloudberrydb/cloudberrydb/pull/155" target="_blank" rel="noopener noreferrer">#155</a> by @MisterRaindrop</li>
+<li>Change json_object name to avoid conflict with jansson lib. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/154" target="_blank" rel="noopener noreferrer">#154</a> by @MisterRaindrop</li>
+<li>Improve makeArrayTypeName's algorithm for choosing array type names. <a href="https://github.com/cloudberrydb/cloudberrydb/pull/152" target="_blank" rel="noopener noreferrer">#152</a> by @lss602726449</li>
+<li>Implement Parallel-aware Hash Left Anti Semi (Not-In) Join <a href="https://github.com/cloudberrydb/cloudberrydb/pull/149" target="_blank" rel="noopener noreferrer">#149</a> by @avamingli</li>
+<li>Fix bugs which could not create unique index "gp_fastsequence_objid_objmod_index" <a href="https://github.com/cloudberrydb/cloudberrydb/pull/146" target="_blank" rel="noopener noreferrer">#146</a> by @lss602726449</li>
+<li>Add final Motion earlier in grouping_planner for partial paths <a href="https://github.com/cloudberrydb/cloudberrydb/pull/142" target="_blank" rel="noopener noreferrer">#142</a> by @avamingli</li>
+<li>Fix: warehouse is not supported without unionstore <a href="https://github.com/cloudberrydb/cloudberrydb/pull/139" target="_blank" rel="noopener noreferrer">#139</a> by @roseduan</li>
+<li>Support separation of catalog and compute <a href="https://github.com/cloudberrydb/cloudberrydb/pull/138" target="_blank" rel="noopener noreferrer">#138</a> by @HuSen8891</li>
+<li>FIX: constraint check exception with snapshot memory leak in AO/AOCS <a href="https://github.com/cloudberrydb/cloudberrydb/pull/136" target="_blank" rel="noopener noreferrer">#136</a> by @lss602726449</li>
+<li>add hashdata extension storage_am related hook <a href="https://github.com/cloudberrydb/cloudberrydb/pull/135" target="_blank" rel="noopener noreferrer">#135</a> by @wangliang03</li>
+<li>Loosen the restriction outer path has Motion of parallel plan <a href="https://github.com/cloudberrydb/cloudberrydb/pull/134" target="_blank" rel="noopener noreferrer">#134</a> by @avamingli</li>
+</ul>
+<p>In addition, we also have updates for our Cloudberry Database website. Some new pages have been live, including <a href="https://cloudberrydb.org/community/security" target="_blank" rel="noopener noreferrer">security policy</a>, <a href="https://cloudberrydb.org/contribute/how-to-contribute" target="_blank" rel="noopener noreferrer">contribution guide</a>, <a href="https://cloudberrydb.org/contribute/git" target="_blank" rel="noopener noreferrer">working with Git &amp; GitHub</a>, <a href="https://cloudberrydb.org/contribute/code" target="_blank" rel="noopener noreferrer">code Contribution guide</a>, <a href="https://cloudberrydb.org/contribute/proposal" target="_blank" rel="noopener noreferrer">proposal guide</a>, and more. You can visit our <a href="https://cloudberrydb.org/" target="_blank" rel="noopener noreferrer">website</a> to learn more.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="proposals--ideas">Proposals &amp; Ideas<a href="https://cloudberry.apache.org/blog/cloudberrydb-august-weekly#proposals--ideas" class="hash-link" aria-label="Direct link to Proposals &amp; Ideas" title="Direct link to Proposals &amp; Ideas">​</a></h2>
+<ul>
+<li>[Proposal] Refactor ORCA to support user-defined access method in pg <a href="https://github.com/orgs/cloudberrydb/discussions/113" target="_blank" rel="noopener noreferrer">#113</a> by @wfnuser</li>
+<li>[Ideas] Should prune tags after fetching from GP repo <a href="https://github.com/orgs/cloudberrydb/discussions/137" target="_blank" rel="noopener noreferrer">#137</a> by @Ray-Eldath</li>
+<li>[Proposal] Implement Scorll Parallel Retrieve Cursor. <a href="https://github.com/orgs/cloudberrydb/discussions/120" target="_blank" rel="noopener noreferrer">#120</a> by @wenchaozhang-123</li>
+<li>[Ideas] Wanna PostgresML in CBDB? An AI application database. LLM embeddings, generate text, or make online predictions using only SQL. <a href="https://github.com/orgs/cloudberrydb/discussions/114" target="_blank" rel="noopener noreferrer">#114</a> by @avamingli</li>
+<li>[Proposal] Support Incremental View Maintenance (IVM) in Cloudberry Database <a href="https://github.com/orgs/cloudberrydb/discussions/36" target="_blank" rel="noopener noreferrer">#36</a> by @avamingli</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="issues">Issues<a href="https://cloudberry.apache.org/blog/cloudberrydb-august-weekly#issues" class="hash-link" aria-label="Direct link to Issues" title="Direct link to Issues">​</a></h2>
+<ul>
+<li>Support dynamic table for Cloud <a href="https://github.com/cloudberrydb/cloudberrydb/issues/179" target="_blank" rel="noopener noreferrer">#179</a> by @my-ship-it</li>
+<li>ERROR<!-- -->:CBucket<!-- -->.cpp:45: Failed assertion <a href="https://github.com/cloudberrydb/cloudberrydb/issues/178" target="_blank" rel="noopener noreferrer">#178</a> by @liyxbeijing</li>
+<li>Upgrade pg_vector to 0.5.0 <a href="https://github.com/cloudberrydb/cloudberrydb/issues/177" target="_blank" rel="noopener noreferrer">#177</a> by @my-ship-it</li>
+<li>cdbd primary segment failure: writer proc reference shared with reader is invalid <a href="https://github.com/cloudberrydb/cloudberrydb/issues/174" target="_blank" rel="noopener noreferrer">#174</a> by @liyxbeijing</li>
+<li>SPIKE memory usage difference between PG and Cloudberry <a href="https://github.com/cloudberrydb/cloudberrydb/issues/164" target="_blank" rel="noopener noreferrer">#164</a> by @my-ship-it</li>
+<li>[Enhance] Too many log messages for memory stats when run out of memory <a href="https://github.com/cloudberrydb/cloudberrydb/issues/159" target="_blank" rel="noopener noreferrer">#159</a> by @gfphoenix78</li>
+<li>Support elastic search SSL for zombodb <a href="https://github.com/cloudberrydb/cloudberrydb/issues/153" target="_blank" rel="noopener noreferrer">#153</a> by @my-ship-it</li>
+<li>[Bug] gppkg -r is invalid <a href="https://github.com/cloudberrydb/cloudberrydb/issues/151" target="_blank" rel="noopener noreferrer">#151</a> by @chenfool</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributors">Contributors<a href="https://cloudberry.apache.org/blog/cloudberrydb-august-weekly#contributors" class="hash-link" aria-label="Direct link to Contributors" title="Direct link to Contributors">​</a></h2>
+<p>🎈️🎊️ Thanks to the following contributors for helping make Cloudberry Database better this month:</p>
+<blockquote>
+<p>@wenchaozhang-123, @tuhaihe, @Ray-Eldath, @Zhangbaowen-Hashdata,
+@hw118118, @roseduan, @HuSen8891, @MisterRaindrop, @lss602726449,
+@avamingli, @wangliang03, @my-ship-it, @liyxbeijing, @gfphoenix78,
+@chenfool, @TomShawn, @wfnuser</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stay-updated">Stay updated<a href="https://cloudberry.apache.org/blog/cloudberrydb-august-weekly#stay-updated" class="hash-link" aria-label="Direct link to Stay updated" title="Direct link to Stay updated">​</a></h2>
+<p>For more updates, please follow us on Twitter. If you have any questions on the Cloudberry Database, you can join our <a href="https://cloudberrydb.org/support" target="_blank" rel="noopener noreferrer">community channels</a> to ask.</p>
+<p>See you next!</p>]]></content:encoded>
+            <category>Newsletter</category>
+        </item>
+    </channel>
+</rss>

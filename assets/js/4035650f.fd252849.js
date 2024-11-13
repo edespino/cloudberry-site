@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkCloudberry_Database_website=self.webpackChunkCloudberry_Database_website||[]).push([[2260],{99438:e=>{e.exports=JSON.parse('{"label":"Engineering","permalink":"/blog/tags/engineering","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

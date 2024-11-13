@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkCloudberry_Database_website=self.webpackChunkCloudberry_Database_website||[]).push([[8868],{36139:e=>{e.exports=JSON.parse('{"label":"\u901a\u544a","permalink":"/zh/blog/tags/\u901a\u544a","allTagsPath":"/zh/blog/tags","count":2,"unlisted":false}')}}]);
