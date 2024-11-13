@@ -34,7 +34,7 @@
 # - The asf-site branch is protected - only this workflow should modify it
 # - Build artifacts are placed in ./build directory
 
-name: Publish Cloudberry Site
+name: Publish_Cloudberry_Site
 
 on:
   push:
