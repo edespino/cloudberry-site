@@ -4,10 +4,23 @@
         <title>Apache Cloudberry (Incubating) is one advanced and mature open-source MPP (Massively Parallel Processing) databases available.</title>
         <link>https://cloudberry.apache.org/zh/blog</link>
         <description>Apache Cloudberry (Incubating) Blog</description>
-        <lastBuildDate>Wed, 20 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
+        <item>
+            <title><![CDATA[Welcoming Xiong Tong as a New Apache Cloudberry Committer]]></title>
+            <link>https://cloudberry.apache.org/zh/blog/welcoming-xiongtong-as-a-new-apache-cloudberry-committer</link>
+            <guid>https://cloudberry.apache.org/zh/blog/welcoming-xiongtong-as-a-new-apache-cloudberry-committer</guid>
+            <pubDate>Mon, 24 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Becoming a committer is a strong commitment to the community.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Welcoming Xiong Tong as a New Committer" src="https://cloudberry.apache.org/zh/assets/images/202503-welcome-new-committer-xiongtong-banner-large-74444b903a4b4557af02f3ba9374f7cc.png" width="1200" height="662" class="img_ev3q"></p>
+<p>We are thrilled to announce that Xiong Tong (GitHub ID: TomShawn) has officially joined the Apache Cloudberry community as a committer! The Podling Project Management Committee (PPMC) for Apache Cloudberry extended the invitation, and we are delighted that he has accepted this new role.</p>
+<p>Over the past two years, TomShawn has made outstanding contributions to the project's documentation, significantly enhancing the clarity and accessibility of our resources. His dedication and commitment have played a crucial role in shaping the project's documentation landscape. You can explore his impactful work here: <a href="https://github.com/apache/cloudberry-site/commits?author=TomShawn" target="_blank" rel="noopener noreferrer">TomShawn's Contributions</a>.</p>
+<p>Becoming a committer is a significant milestone that reflects both technical expertise and a strong commitment to the community. We are excited to see Xiong Tong continue to make meaningful contributions and take on greater responsibilities within the project.</p>
+<p>Please join us in congratulating Xiong Tong on this well-deserved achievement and welcoming him to his new role in the Apache Cloudberry community!</p>]]></content:encoded>
+            <category>Announcement</category>
+        </item>
         <item>
             <title><![CDATA[Cloudberry Database Enters the Apache Incubator: A New Chapter in Open-Source MPP Database for Analytics and AI]]></title>
             <link>https://cloudberry.apache.org/zh/blog/cloudberry-database-enters-the-apache-incubator</link>
