@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudberry.apache.org/blog</id>
     <title>Apache Cloudberry (Incubating) is one advanced and mature open-source MPP (Massively Parallel Processing) databases available.</title>
-    <updated>2025-03-24T00:00:00.000Z</updated>
+    <updated>2025-05-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudberry.apache.org/blog"/>
     <subtitle>Apache Cloudberry (Incubating) Blog</subtitle>
     <icon>https://cloudberry.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcoming Wenchao Zhang as a New Apache Cloudberry Committer]]></title>
+        <id>https://cloudberry.apache.org/blog/welcoming-wenchaozhang-as-a-new-apache-cloudberry-committer</id>
+        <link href="https://cloudberry.apache.org/blog/welcoming-wenchaozhang-as-a-new-apache-cloudberry-committer"/>
+        <updated>2025-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Becoming a committer demonstrates a strong commitment to the community.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Welcoming Wenchao Zhang as a New Committer" src="https://cloudberry.apache.org/assets/images/202505-welcome-new-committer-wenchaozhang-banner-large-f7faa7c3a1c0480673b508ece7b08dd0.png" width="1200" height="662" class="img_ev3q"></p>
+<p>We are thrilled to announce that Wenchao Zhang (GitHub ID: zhangwenchao-123) has officially joined the Apache Cloudberry community as a committer! The Podling Project Management Committee (PPMC) for Apache Cloudberry invited him to become a committer, and we are pleased to announce that he has accepted this invitation.</p>
+<p>Wenchao has made consistent and meaningful contributions to the Cloudberry project, particularly in the directory table, password profile feature, and performance issues. You can review his commit history here: <a href="https://github.com/apache/cloudberry/commits?author=zhangwenchao-123" target="_blank" rel="noopener noreferrer">Wenchao's Contributions</a>.</p>
+<p>His technical insights, responsiveness, and collaboration with the community have made a positive impact, and we believe he is a valuable addition to the Committer team.</p>
+<p>Becoming a committer is a significant milestone that reflects both technical expertise and a strong commitment to the community. We are excited to see Wenchao Zhang continue to make meaningful contributions and take on greater responsibility within the project.</p>
+<p>Please join us in congratulating Wenchao Zhang on this well-deserved achievement and welcoming him to his new role in the Apache Cloudberry community!</p>]]></content>
+        <author>
+            <name>Apache Cloudberry</name>
+        </author>
+        <category label="Announcement" term="Announcement"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcoming Xiong Tong as a New Apache Cloudberry Committer]]></title>
         <id>https://cloudberry.apache.org/blog/welcoming-xiongtong-as-a-new-apache-cloudberry-committer</id>

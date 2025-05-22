@@ -5,6 +5,20 @@
     "description": "Apache Cloudberry (Incubating) Blog",
     "items": [
         {
+            "id": "https://cloudberry.apache.org/blog/welcoming-wenchaozhang-as-a-new-apache-cloudberry-committer",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"Welcoming Wenchao Zhang as a New Committer\" src=\"https://cloudberry.apache.org/assets/images/202505-welcome-new-committer-wenchaozhang-banner-large-f7faa7c3a1c0480673b508ece7b08dd0.png\" width=\"1200\" height=\"662\" class=\"img_ev3q\"></p>\n<p>We are thrilled to announce that Wenchao Zhang (GitHub ID: zhangwenchao-123) has officially joined the Apache Cloudberry community as a committer! The Podling Project Management Committee (PPMC) for Apache Cloudberry invited him to become a committer, and we are pleased to announce that he has accepted this invitation.</p>\n<p>Wenchao has made consistent and meaningful contributions to the Cloudberry project, particularly in the directory table, password profile feature, and performance issues. You can review his commit history here: <a href=\"https://github.com/apache/cloudberry/commits?author=zhangwenchao-123\" target=\"_blank\" rel=\"noopener noreferrer\">Wenchao's Contributions</a>.</p>\n<p>His technical insights, responsiveness, and collaboration with the community have made a positive impact, and we believe he is a valuable addition to the Committer team.</p>\n<p>Becoming a committer is a significant milestone that reflects both technical expertise and a strong commitment to the community. We are excited to see Wenchao Zhang continue to make meaningful contributions and take on greater responsibility within the project.</p>\n<p>Please join us in congratulating Wenchao Zhang on this well-deserved achievement and welcoming him to his new role in the Apache Cloudberry community!</p>",
+            "url": "https://cloudberry.apache.org/blog/welcoming-wenchaozhang-as-a-new-apache-cloudberry-committer",
+            "title": "Welcoming Wenchao Zhang as a New Apache Cloudberry Committer",
+            "summary": "Becoming a committer demonstrates a strong commitment to the community.",
+            "date_modified": "2025-05-22T00:00:00.000Z",
+            "author": {
+                "name": "Apache Cloudberry"
+            },
+            "tags": [
+                "Announcement"
+            ]
+        },
+        {
             "id": "https://cloudberry.apache.org/blog/welcoming-xiongtong-as-a-new-apache-cloudberry-committer",
             "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"Welcoming Xiong Tong as a New Committer\" src=\"https://cloudberry.apache.org/assets/images/202503-welcome-new-committer-xiongtong-banner-large-74444b903a4b4557af02f3ba9374f7cc.png\" width=\"1200\" height=\"662\" class=\"img_ev3q\"></p>\n<p>We are thrilled to announce that Xiong Tong (GitHub ID: TomShawn) has officially joined the Apache Cloudberry community as a committer! The Podling Project Management Committee (PPMC) for Apache Cloudberry extended the invitation, and we are delighted that he has accepted this new role.</p>\n<p>Over the past two years, TomShawn has made outstanding contributions to the project's documentation, significantly enhancing the clarity and accessibility of our resources. His dedication and commitment have played a crucial role in shaping the project's documentation landscape. You can explore his impactful work here: <a href=\"https://github.com/apache/cloudberry-site/commits?author=TomShawn\" target=\"_blank\" rel=\"noopener noreferrer\">TomShawn's Contributions</a>.</p>\n<p>Becoming a committer is a significant milestone that reflects both technical expertise and a strong commitment to the community. We are excited to see Xiong Tong continue to make meaningful contributions and take on greater responsibilities within the project.</p>\n<p>Please join us in congratulating Xiong Tong on this well-deserved achievement and welcoming him to his new role in the Apache Cloudberry community!</p>",
             "url": "https://cloudberry.apache.org/blog/welcoming-xiongtong-as-a-new-apache-cloudberry-committer",
