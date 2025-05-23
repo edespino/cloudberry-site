@@ -473,7 +473,8 @@ const sidebars: SidebarsConfig = {
               'sys-catalogs/sys-tables/pg-type-encoding',
               'sys-catalogs/sys-tables/pg-user-mapping',
             ]
-          }
+          },
+          'sys-catalogs/gp_toolkit'
     ]
        },
      ]
