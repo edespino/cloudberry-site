@@ -2,11 +2,106 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudberry.apache.org/zh/blog</id>
     <title>Apache Cloudberry (Incubating) is one advanced and mature open-source MPP (Massively Parallel Processing) databases available.</title>
-    <updated>2025-05-22T00:00:00.000Z</updated>
+    <updated>2025-05-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudberry.apache.org/zh/blog"/>
     <subtitle>Apache Cloudberry (Incubating) Blog</subtitle>
     <icon>https://cloudberry.apache.org/zh/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache Cloudberry Incubation Report - May 2025]]></title>
+        <id>https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505</id>
+        <link href="https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505"/>
+        <updated>2025-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re making steady progress to grow!]]></summary>
+        <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>备注</div><div class="admonitionContent_BuS1"><p>This Cloudberry incubation report summarizes our major progress during March and April 2025. It is adapted from the <a href="https://cwiki.apache.org/confluence/display/INCUBATOR/May2025#cloudberry" target="_blank" rel="noopener noreferrer">Apache Incubator Report May 2025</a>, with some modifications for readability.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cloudberry">Cloudberry<a href="https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505#cloudberry" class="hash-link" aria-label="Cloudberry的直接链接" title="Cloudberry的直接链接">​</a></h2>
+<p>Cloudberry is an advanced and mature open-source Massively Parallel Processing (MPP) database, derived from the open-source version of Pivotal Greenplum Database®️ but built on a more modern PostgreSQL 14 kernel, whereas Greenplum is based on PostgreSQL 12. This upgrade brings enhanced enterprise capabilities, making Cloudberry well-suited for data warehousing, large-scale analytics, and AI/ML workloads.</p>
+<p>Cloudberry has been incubating since 2024-10-11</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="three-most-important-unfinished-issues-to-address-before-graduating">Three most important unfinished issues to address before graduating:<a href="https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505#three-most-important-unfinished-issues-to-address-before-graduating" class="hash-link" aria-label="Three most important unfinished issues to address before graduating:的直接链接" title="Three most important unfinished issues to address before graduating:的直接链接">​</a></h3>
+<ol>
+<li>Complete the source code cleanup to ensure ASF compliance.</li>
+<li>Publish the first Apache release following ASF release processes.</li>
+<li>Grow the contributor and community to ensure long-term sustainability.</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-has-the-community-developed-since-the-last-report">How has the community developed since the last report?<a href="https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505#how-has-the-community-developed-since-the-last-report" class="hash-link" aria-label="How has the community developed since the last report?的直接链接" title="How has the community developed since the last report?的直接链接">​</a></h3>
+<ul>
+<li>Mailing list Activity: 59 messages and 92 messages on the Dev mailing list in March and April 2025, covering technical and Apache-related
+discussions.</li>
+<li>Slack Activity: 16 new threads in <code>general</code> channel, 27 new members since last report.</li>
+<li>GitHub Discussions: 4 new threads in March and 7 new threads in April.</li>
+<li>New Committer: welcomed our first committer since joining the incubator.<!-- -->
+<ul>
+<li>Mar 19, 2025 - Xiong Tong</li>
+</ul>
+</li>
+<li>Events:<!-- -->
+<ul>
+<li>Join OSPP 2025 to attract university students to join the open-source development</li>
+<li>A Cloudberry Meetup hosted by HashData in Hangzhou attracted 30~ attendees.</li>
+<li>The contributor @Leonid Borchuk and PPMC Member @Kirill Reshke presented their talks on Cloudberry at the sql-ninja conference in Moscow
+on 03/22, 2025.</li>
+<li>PPMC member Shine Zhang presented "From Greenplum to Apache Cloudberry" at Postgres Conference 2025, Orlando / United States, March 20, 2025</li>
+<li>6+ Cloudberry proposals are submitted to CommunityOverCode NA/Asia 2025 (still in review and waiting for the final approval).</li>
+<li>Create website pages to guide on how to invite the new committer.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-has-the-project-developed-since-the-last-report">How has the project developed since the last report?<a href="https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505#how-has-the-project-developed-since-the-last-report" class="hash-link" aria-label="How has the project developed since the last report?的直接链接" title="How has the project developed since the last report?的直接链接">​</a></h3>
+<ul>
+<li>Create the Wiki space in GitHub to organize the collective knowledge from community practices, including the release process.</li>
+<li>Security:<!-- -->
+<ul>
+<li>Integrated two code analysis tools to enhance our code quality and identify potential issues in the development process: Coverity Scan and SonarQube Scan.</li>
+<li>Fix the PostgreSQL security issue CVE-2025-1094.</li>
+</ul>
+</li>
+<li>CICD:<!-- -->
+<ul>
+<li>Working on adding the Ubuntu build and test environment support to Cloudberry</li>
+</ul>
+</li>
+<li>Codebase Updates:<!-- -->
+<ul>
+<li>Evolve the Cloudberry code following the Roadmap: Contributed back the row-column hybrid storage engine -PAX to the Cloudberry codebase;</li>
+<li>Completed the first stage of cherry-picking commits from the open-source Greenplum project to Cloudberry (80%+ progress of plan).</li>
+<li>Work for the first Apache Cloudberry (Incubating) 2.0.0 release<!-- -->
+<ul>
+<li>Pull Request management through the GitHub project: <a href="https://github.com/orgs/apache/projects/490" target="_blank" rel="noopener noreferrer">https://github.com/orgs/apache/projects/490</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>License-related updates:<!-- -->
+<ul>
+<li>Update the NOTICE and LICENSE files.</li>
+<li>List the third-party licenses under the <code>licenses</code> directory.</li>
+<li>Replace the Pylint with a license-compatible one - ruff.</li>
+<li>Update the license headers with the Apache license header for the newly created files.</li>
+<li>Add RAT license audit config and compliance metadata.</li>
+</ul>
+</li>
+<li>Brand updates: rebrand old names to the latest Apache Cloudberry brand both in the main codebase and the site source.</li>
+<li>Cleanup the old unused files from the source code for a clearer codebase and ASF compliance (including <code>concourse/*</code>, <code>hd-ci/*</code>, <code>deploy/*</code>, and so on).</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-would-you-assess-the-podlings-maturity">How would you assess the podling's maturity?<a href="https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505#how-would-you-assess-the-podlings-maturity" class="hash-link" aria-label="How would you assess the podling's maturity?的直接链接" title="How would you assess the podling's maturity?的直接链接">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Initial setup</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Working towards first release</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Community building</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Nearing graduation</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Other:</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="date-of-last-release">Date of last release:<a href="https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505#date-of-last-release" class="hash-link" aria-label="Date of last release:的直接链接" title="Date of last release:的直接链接">​</a></h3>
+<p>N/A</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="when-were-the-last-committers-or-ppmc-members-elected">When were the last committers or PPMC members elected?<a href="https://cloudberry.apache.org/zh/blog/apache-cloudberry-incubation-report-202505#when-were-the-last-committers-or-ppmc-members-elected" class="hash-link" aria-label="When were the last committers or PPMC members elected?的直接链接" title="When were the last committers or PPMC members elected?的直接链接">​</a></h3>
+<ul>
+<li>Mar 19, 2025 - Xiong Tong (committer)</li>
+</ul>]]></content>
+        <author>
+            <name>Apache Cloudberry</name>
+        </author>
+        <category label="Incubation" term="Incubation"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcoming Wenchao Zhang as a New Apache Cloudberry Committer]]></title>
         <id>https://cloudberry.apache.org/zh/blog/welcoming-wenchaozhang-as-a-new-apache-cloudberry-committer</id>
