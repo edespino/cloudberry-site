@@ -350,6 +350,7 @@ const sidebars: SidebarsConfig = {
       },
 
         'data-types',
+        'config-params-guc-list',
 
       {
         type: 'category',
@@ -474,7 +475,6 @@ const sidebars: SidebarsConfig = {
               'sys-catalogs/sys-tables/pg-user-mapping',
             ]
           },
-
           {
             type: 'category',
             label: 'System Views',

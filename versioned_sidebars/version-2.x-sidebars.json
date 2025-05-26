@@ -363,6 +363,7 @@
           ]
         },
         "data-types",
+        "config-params-guc-list",
         {
           "type": "category",
           "label": "Built-in Functions",
@@ -486,7 +487,6 @@
               "sys-catalogs/sys-tables/pg-user-mapping"
             ]
           },
-
           {
             "type": "category",
             "label": "System Views",
