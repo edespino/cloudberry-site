@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkApache_Cloudberry_Incubating_website=self.webpackChunkApache_Cloudberry_Incubating_website||[]).push([[95042],{73455:e=>{e.exports=JSON.parse('{"permalink":"/zh/blog/tags/release","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
