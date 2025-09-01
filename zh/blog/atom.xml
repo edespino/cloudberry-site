@@ -2,11 +2,762 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudberry.apache.org/zh/blog</id>
     <title>Apache Cloudberry (Incubating) is one advanced and mature open-source MPP (Massively Parallel Processing) databases available.</title>
-    <updated>2025-08-27T00:00:00.000Z</updated>
+    <updated>2025-08-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudberry.apache.org/zh/blog"/>
     <subtitle>Apache Cloudberry (Incubating) Blog</subtitle>
     <icon>https://cloudberry.apache.org/zh/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[What's New in Apache Cloudberry 2.0.0]]></title>
+        <id>https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0</id>
+        <link href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0"/>
+        <updated>2025-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dive into the new features and enhancements in Apache Cloudberry 2.0.0]]></summary>
+        <content type="html"><![CDATA[<p>Apache Cloudberry (Incubating) 2.0.0 is the first Apache release since joining the ASF Incubator. This major version delivers significant enhancements to the database kernel, representing a substantial leap forward in performance, reliability, and manageability. The release also includes hundreds of bug fixes and stability improvements.</p>
+<p>In this article, we highlight only the most important features, enhancements, and fixes to help you quickly understand the key improvements in this release. For more details, please refer to the <a href="https://cloudberry.apache.org/releases/2.0.0-incubating/" target="_blank" rel="noopener noreferrer">Apache Cloudberry 2.0.0 Changelog</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#new-features" class="hash-link" aria-label="New features的直接链接" title="New features的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="query-processing-and-optimization">Query processing and optimization<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#query-processing-and-optimization" class="hash-link" aria-label="Query processing and optimization的直接链接" title="Query processing and optimization的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="index-and-scan">Index and scan<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#index-and-scan" class="hash-link" aria-label="Index and scan的直接链接" title="Index and scan的直接链接">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="enhanced-index-only-scan-capabilities">Enhanced index-only scan capabilities<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#enhanced-index-only-scan-capabilities" class="hash-link" aria-label="Enhanced index-only scan capabilities的直接链接" title="Enhanced index-only scan capabilities的直接链接">​</a></h5>
+<ul>
+<li>
+<p>Supports index-only scans on a broader range of index types when using the GPORCA optimizer, including those with covering indexes using <code>INCLUDE</code> columns. This helps improve query performance.</p>
+</li>
+<li>
+<p>Supports dynamic index-only scan when using the GPORCA optimizer to accelerate queries on partitioned tables. This feature combines partition pruning with index-only access to avoid heap lookups, significantly reducing I/O and improving performance. It is ideal for wide tables with narrow covering indexes and can be enabled using <code>SET optimizer_enable_dynamicindexonlyscan = on</code>.</p>
+</li>
+<li>
+<p>Supports index-only scans when using the GPORCA optimizer on append-only (AO) tables and PAX tables, enabling faster query execution by avoiding block access when possible. This improves performance in scenarios where traditional index scans on AO and PAX tables were previously inefficient.</p>
+</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="improved-index-scan-performance-and-flexibility">Improved index scan performance and flexibility<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#improved-index-scan-performance-and-flexibility" class="hash-link" aria-label="Improved index scan performance and flexibility的直接链接" title="Improved index scan performance and flexibility的直接链接">​</a></h5>
+<ul>
+<li>
+<p>Supports backward index scans when using the GPORCA optimizer for queries with <code>ORDER BY ... DESC</code>, eliminating the need for explicit sorting when a B-tree index exists in the opposite order. This optimization reduces resource usage and improves performance, especially for top-N and pagination queries.</p>
+</li>
+<li>
+<p>The GPORCA optimizer supports triggering Bitmap Index Scans using array comparison predicates like <code>col IN (...)</code> or <code>col = ANY(array)</code>, including for hash indexes. This improves query performance on large datasets by enabling more efficient multi-value matching. The optimizer automatically chooses the bitmap scan path based on cost estimation.</p>
+</li>
+<li>
+<p>The GPORCA optimizer now considers the width of <code>INCLUDE</code> columns when costing index-only scans, favoring narrower indexes that return fewer unused columns. This improves plan selection for queries where multiple covering indexes are available. The cost model also more accurately estimates I/O by refining how <code>relallvisible</code> is used in index-only scan costing.</p>
+</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="brin-index-enhancements">BRIN index enhancements<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#brin-index-enhancements" class="hash-link" aria-label="BRIN index enhancements的直接链接" title="BRIN index enhancements的直接链接">​</a></h5>
+<ul>
+<li>
+<p>Redesigns BRIN index internals for AO/CO tables to replace the <code>UPPER</code> page structure with a more efficient chaining model. This significantly reduces disk space usage for empty indexes and improves performance by avoiding unnecessary page access. The new design better handles the unique layout of AO/CO tables while maintaining correctness and compatibility.</p>
+</li>
+<li>
+<p>BRIN indexes on AO/CO tables now support summarizing specific logical heap block ranges using <code>brin_summarize_range()</code>, enabling more precise control during index maintenance and testing. This enhancement also adds improved coverage for scenarios involving aborted rows, increasing robustness and correctness in edge cases.</p>
+</li>
+<li>
+<p>Supports generating <code>IndexScan</code> plans when using the GPORCA optimizer with <code>ScalarArrayOp</code> qualifiers (for example, <code>col = ANY(array)</code>) for B-tree indexes. This enhancement aligns ORCA with the planner's behavior and allows more efficient execution of array comparison queries, as long as the predicate column is the first key in a multicolumn index.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="view-and-materialized-view">View and materialized view<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#view-and-materialized-view" class="hash-link" aria-label="View and materialized view的直接链接" title="View and materialized view的直接链接">​</a></h4>
+<ul>
+<li>Improves performance of <code>REFRESH MATERIALIZED VIEW WITH NO DATA</code> by avoiding full query execution. The command now behaves like a <code>TRUNCATE</code>,significantly reducing execution time while preserving proper dispatch to segments.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="join">Join<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#join" class="hash-link" aria-label="Join的直接链接" title="Join的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Supports left join pruning when using the GPORCA optimizer, allowing unnecessary left joins to be eliminated during query optimization. This applies when the query only uses columns from the outer table and the join condition fully covers the inner table's unique or primary keys. This can lead to more efficient query plans.</p>
+</li>
+<li>
+<p>Supports <code>FULL JOIN</code> using the <code>Hash Full Join</code> strategy when using the GPORCA optimizer. This approach avoids sorting join keys and reduces data redistribution, making it suitable for large datasets or joins on non-aligned distribution keys. All <code>FULL JOIN</code> queries now use <code>Hash Full Join</code>.</p>
+</li>
+<li>
+<p>The GPORCA optimizer now avoids unnecessary data redistribution for multi-way self joins using left or right outer joins when the join keys are symmetric. This optimization improves performance by recognizing that such joins preserve data colocation, eliminating redundant motion operations.</p>
+</li>
+<li>
+<p>The GPORCA optimizer no longer penalizes broadcast plans for <code>NOT IN</code> queries (Left Anti Semi Join), regardless of the <code>optimizer_penalize_broadcast_threshold</code> setting. This change improves performance and avoids potential OOM issues by enabling parallel execution instead of concentrating large tables on the coordinator node.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="function--aggregate">Function &amp; aggregate<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#function--aggregate" class="hash-link" aria-label="Function &amp; aggregate的直接链接" title="Function &amp; aggregate的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Supports intermediate aggregates when using the GPORCA optimizer, enabling more efficient execution of queries that include both <code>DISTINCT</code> aggregates and regular aggregates. This ensures correct handling of aggregation stages using <code>AGGSPLIT</code>. In addition, ORCA introduces an optimization for <code>MIN()</code> and <code>MAX()</code> functions by using index scans with a limit, instead of full table scans with regular aggregation. This optimization also supports <code>IS NULL</code> and <code>IS NOT NULL</code> conditions on indexed columns, significantly improving performance for applicable queries.</p>
+</li>
+<li>
+<p>Enables more <code>HashAggregate</code> plan alternatives for queries that include <code>DISTINCT</code> aggregates when using the GPORCA optimizer. By generating a two-stage aggregation plan that avoids placing <code>DISTINCT</code> functions in hash-based nodes, ORCA ensures compatibility with the executor and expands the range of supported query plans. This improvement enhances optimization choices for group-by queries.</p>
+</li>
+<li>
+<p>Supports queries using <code>GROUP BY CUBE</code>, enabling multi-dimensional grouping sets in query plans. This expands analytic query capabilities. Note that optimization time for <code>CUBE</code> queries may be high due to the large number of generated plan alternatives.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="preprocessing">Preprocessing<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#preprocessing" class="hash-link" aria-label="Preprocessing的直接链接" title="Preprocessing的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Inlines Common Table Expressions (CTEs) that contain outer references, allowing such queries to be planned and explained successfully. Previously, these queries would fall back to the legacy planner due to limitations in handling shared scans with outer references. This change improves compatibility and enables ORCA to optimize a broader range of CTE-based queries.</p>
+</li>
+<li>
+<p>No longer rewrites <code>IN</code> queries to <code>EXISTS</code> when the inner subquery contains a set-returning function. This prevents invalid query transformations that could previously result in execution errors. The change ensures correct handling of queries like <code>a IN (SELECTgenerate_series(1, a))</code>.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="optimization-and-performance-enhancements">Optimization and performance enhancements<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#optimization-and-performance-enhancements" class="hash-link" aria-label="Optimization and performance enhancements的直接链接" title="Optimization and performance enhancements的直接链接">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="dynamic-table">Dynamic Table<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#dynamic-table" class="hash-link" aria-label="Dynamic Table的直接链接" title="Dynamic Table的直接链接">​</a></h5>
+<ul>
+<li>Introduces dynamic tables, a new feature that enables automatic, scheduled refresh of query results. Dynamic tables are similar to materialized views but are designed for scenarios requiring up-to-date data, such as real-time analytics, lakehouse architectures, and automated ETL pipelines.</li>
+<li>Supports creating dynamic tables from base tables, external tables, or materialized views. Users can define refresh intervals using standard cron expressions, ensuring data is kept current without manual intervention.</li>
+<li>For more details, see the <a href="https://cloudberry.apache.org/docs/performance/use-dynamic-tables/" target="_blank" rel="noopener noreferrer">official documentation</a>.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="plan-hint">Plan hint<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#plan-hint" class="hash-link" aria-label="Plan hint的直接链接" title="Plan hint的直接链接">​</a></h5>
+<ul>
+<li>
+<p>Supports plan hints for scan types and join row estimates when using the GPORCA optimizer, enabling users to guide query planning using <code>pg_hint_plan</code>-style comments. Supports scan hints include <code>SeqScan</code>, <code>IndexScan</code>, <code>BitmapScan</code>, and their negations, while row hints allow users to specify expected join cardinalities.</p>
+</li>
+<li>
+<p>The <code>plan hint</code> field is now required in the ORCA optimizer configuration. This change simplifies internal parsing logic and ensures consistent handling of optimizer configuration files.</p>
+</li>
+<li>
+<p>Supports join order hints for left and right outer joins when using the GPORCA optimizer, extending the existing hint framework beyond inner joins. This enhancement allows users to guide the optimizer's join order more precisely in complex queries involving outer joins, improving plan control and potentially execution performance.</p>
+</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements-to-orca">Enhancements to ORCA<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#enhancements-to-orca" class="hash-link" aria-label="Enhancements to ORCA的直接链接" title="Enhancements to ORCA的直接链接">​</a></h5>
+<ul>
+<li>
+<p>Supports table aliases in query plans when using the GPORCA optimizer, making <code>EXPLAIN</code> outputs more descriptive and aligned with user-defined query syntax. In addition, ORCA adds support for query parameters, including those used in functions and prepared statements, enabling better compatibility with parameterized workloads and dynamic SQL execution.</p>
+</li>
+<li>
+<p>When using the GPORCA optimizer, supports generating plans for queries on tables with row-level security (RLS) enabled. Security policies are enforced during plan generation, ensuring only permitted rows are visible to each user. ORCA still falls back to the planner for RLS queries with sublinks, foreign tables, or for <code>INSERT</code> and <code>UPDATE</code> statements.</p>
+</li>
+<li>
+<p>The GPORCA optimizer now gracefully falls back to the Postgres planner when a function in the <code>FROM</code> clause uses <code>WITH ORDINALITY</code>, which is not currently supported. The fallback includes a clear error message indicating the unsupported feature.</p>
+</li>
+<li>
+<p>When using the GPORCA optimizer, supports pushing down filters with <code>BETWEEN</code> predicates when combined with constant filters, enabling more effective predicate propagation. This enhancement can reduce the number of rows processed during joins, improving query performance in applicable cases.</p>
+</li>
+<li>
+<p>When using the GPORCA optimizer, supports hashed subplans when the subquery expression is hashable and contains no outer references. This enhancement can significantly improve query performance by reducing execution time in applicable cases.</p>
+</li>
+<li>
+<p>ORCA now supports executing foreign tables with <code>mpp_execute='ANY'</code> on either the coordinator or segments, depending on cost. This allows more flexible and efficient execution plans for foreign data sources. A new "Universal" distribution type is introduced to support this behavior, similar to how <code>generate_series()</code> is handled.</p>
+</li>
+<li>
+<p>ORCA now supports direct dispatch for randomly distributed tables when the query includes a filter on <code>gp_segment_id</code>. This enhancement improves query performance by routing execution directly to the relevant segment, reducing unnecessary data processing across the cluster.</p>
+</li>
+<li>
+<p>ORCA now supports generating plans with the <code>ProjectSet</code> node, enabling correct execution of queries that include set-returning functions (SRFs) in the target list. This enhancement prevents fallback to the legacy planner and ensures compatibility with PostgreSQL 11+ behavior.</p>
+</li>
+<li>
+<p>ORCA now supports the <code>FIELDSELECT</code> node, which allows it to optimize a broader range of queries involving composite data types. Previously, such queries would fall back to the legacy planner. This enhancement improves compatibility and reduces unnecessary planner fallbacks.</p>
+</li>
+<li>
+<p>ORCA now derives statistics only for the columns used in <code>UNION ALL</code> queries, instead of all output columns from the input tables. This optimization reduces unnecessary computation and can improve planning performance for large queries.</p>
+</li>
+<li>
+<p>Updates naming in logs and <code>EXPLAIN</code> output to refer to the optimizers as "GPORCA" and "Postgres based planner" for improved clarity and consistency.</p>
+</li>
+<li>
+<p>Optimizes ORCA's <code>Union All</code> performance by deriving statistics only for columns used in the query output. This reduces unnecessary computation and improves planning efficiency for queries with unused columns.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="transaction-management">Transaction management<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#transaction-management" class="hash-link" aria-label="Transaction management的直接链接" title="Transaction management的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="lock-management">Lock management<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#lock-management" class="hash-link" aria-label="Lock management的直接链接" title="Lock management的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Updates logic to ignore invalidated slots while computing the oldest catalog Xmin, reducing the risk of deadlocks and improving transaction concurrency.</p>
+</li>
+<li>
+<p>Performs serializable isolation checks early for AO/CO tables, ensuring stricter consistency guarantees and reducing the likelihood of isolation conflicts.</p>
+</li>
+<li>
+<p>Enhances the index creation process to prevent deadlocks by ensuring the coordinator acquires an <code>AccessShareLock</code> on <code>pg_index</code> before dispatching a synchronization query to segments, thus aligning <code>indcheckxmin</code> and avoiding conflicts that GDD cannot resolve.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="transaction-performance-and-reliability">Transaction performance and reliability<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#transaction-performance-and-reliability" class="hash-link" aria-label="Transaction performance and reliability的直接链接" title="Transaction performance and reliability的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Avoids replaying DTX information in checkpoints for newly expanded segments, preventing potential inconsistencies during recovery.</p>
+</li>
+<li>
+<p>Adds <code>gp_stat_progress_dtx_recovery</code> for better observability of distributed transaction recovery progress.</p>
+</li>
+<li>
+<p>Improves error reporting for DTX protocol command dispatch errors, making it easier to diagnose and resolve issues.</p>
+</li>
+<li>
+<p>Allows utility mode on the coordinator to skip upgrading locks for <code>SELECT</code> locking clauses, improving efficiency for maintenance operations.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="storage">Storage<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#storage" class="hash-link" aria-label="Storage的直接链接" title="Storage的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="pax-table-format">PAX table format<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#pax-table-format" class="hash-link" aria-label="PAX table format的直接链接" title="PAX table format的直接链接">​</a></h4>
+<ul>
+<li>Introduces support for the PAX (Partition Attributes Across) storage format, a hybrid approach that combines the advantages of row-based and column-based storage. PAX is designed to deliver high performance for both data writes and analytical queries, making it well-suited for OLAP workloads and large-scale data analysis. For more details, see the <a href="https://cloudberry.apache.org/docs/operate-with-data/pax-table-format/" target="_blank" rel="noopener noreferrer">official documentation</a>.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="aoco-table-enhancements">AO/CO table enhancements<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#aoco-table-enhancements" class="hash-link" aria-label="AO/CO table enhancements的直接链接" title="AO/CO table enhancements的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Optimizes <code>CREATE INDEX</code> operations on AO tables with scan progress reporting, enhancing the efficiency of index creation.</p>
+</li>
+<li>
+<p>Declares the connected variable as "volatile" to ensure proper handling across <code>PG_TRY</code> and <code>PG_CATCH</code> blocks, mirroring PostgreSQL's best practices for exception-safe variable usage in transaction control.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="partitioning">Partitioning<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#partitioning" class="hash-link" aria-label="Partitioning的直接链接" title="Partitioning的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Extends Orca's planning capabilities to include support for foreign partitions, enabling optimized query execution for tables with a mix of foreign and non-foreign partitions. The implementation introduces new logical and physical operators for foreign partitions, supports static and dynamic partition elimination, and integrates with any foreign data wrapper compatible, enhancing performance and flexibility for external data queries.</p>
+</li>
+<li>
+<p>Optimizes the analysis of leaf partitions in multi-level partition tables to avoid unnecessary resampling of intermediate partitions.</p>
+</li>
+<li>
+<p>Supports dynamic partition elimination (DPE) when using the GPORCA optimizer for plans involving duplicate-sensitive random motions. This allows partition selectors to pass through segment filters, enabling more efficient query plans and reducing the number of scanned partitions.</p>
+</li>
+<li>
+<p>Adds Dynamic Partition Elimination for Hash Right Joins, which enhances the efficiency of join operations on partitioned tables.</p>
+</li>
+<li>
+<p>Supports boolean static partition pruning in ORCA, enhancing the efficiency of partition pruning during query optimization.</p>
+</li>
+<li>
+<p>Enhances ORCA's query planning by incorporating partition key opfamily checks during partition pruning to optimize data distribution and partition scanning, ensuring correct motion triggering and partition scanning by aligning predicate operators with the distribution or partition key's opfamily, addressing issues with missing motion, incorrect direct dispatch, and ineffective partition pruning.</p>
+</li>
+<li>
+<p>Caches the last found partition in <code>ExecFindPartition</code> to improve performance for repeated partition lookups.</p>
+</li>
+<li>
+<p>Enables ORCA to derive dynamic table scan cardinality from leaf partitions, addressing limitations in handling date and time-related data types by changing their internal representation to doubles.</p>
+</li>
+<li>
+<p>Enhances the DPv2 algorithm to include distribution spec information with partition selectors, improving the efficiency of distributed query execution.</p>
+</li>
+<li>
+<p>Introduces a new Non-Replicated distribution specification to optimize join operations in database processing. By relaxing the enforcement of singleton distribution for outer tables when the inner table is universally distributed, it aims to reduce unnecessary data gathering and duplicate-sensitive motions, thereby generating more efficient execution plans.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="memory-management">Memory management<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#memory-management" class="hash-link" aria-label="Memory management的直接链接" title="Memory management的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Implements a custom allocator to enable ORCA to use standard C++ containers, addressing heap allocation management.</p>
+</li>
+<li>
+<p>Refactors ORCA's memory pool by making several methods static and adds assertions to ensure pointer safety.</p>
+</li>
+<li>
+<p>Optimizes serialization of IMDId objects in ORCA to be lazy, improving performance by deferring serialization until necessary. Improves optimization time when loading objects into the relcache and when involving large and wide partition tables.</p>
+</li>
+<li>
+<p>Ensures that strings returned by <code>GetDatabasePath</code> are always freed using <code>pfree</code>, preventing memory leaks.</p>
+</li>
+<li>
+<p>Enables MPP (Massively Parallel Processing) support for <code>pg_buffercache</code> and builds it by default, making buffer cache management more scalable and efficient in distributed environments.</p>
+</li>
+<li>
+<p>Introduces <code>pg_buffercache_summary()</code> to offer a high-level overview of buffer cache activity.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="metadata-and-access-methods">Metadata and access methods<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#metadata-and-access-methods" class="hash-link" aria-label="Metadata and access methods的直接链接" title="Metadata and access methods的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Allows the definition of lock modes for custom reloptions, providing more control over table and index access.</p>
+</li>
+<li>
+<p>Supports specification of reloptions when switching storage models, allowing seamless transitions between different storage formats.</p>
+</li>
+<li>
+<p>Introduces a new struct member in <code>CreateStmt</code> to indicate the origin of the statement, specifying if it was generated from GP style classic partitioning syntax.</p>
+</li>
+<li>
+<p>Adds syscache lookup for <code>pg_attribute_encoding</code> and <code>pg_appendonly</code>, improving performance and efficiency in metadata access.</p>
+</li>
+<li>
+<p>Introduces a new catalog entry in <code>pg_aggregate</code> to store replication safety information for aggregates, allowing users to mark specific aggregates as safe for execution on replicated slices via an optional repsafe parameter during the <code>CREATE AGGREGATE</code> command. This helps optimize performance by avoiding unnecessary broadcasts on large replicated datasets.</p>
+</li>
+<li>
+<p>Enhances the dispatch of <code>ALTER DATABASE</code> commands by allowing options like <code>ALLOW_CONNECTIONS</code> and <code>IS_TEMPLATE</code> to be dispatched to segments, ensuring catalog changes are reflected everywhere.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-loading-and-external-tables">Data loading and external tables<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#data-loading-and-external-tables" class="hash-link" aria-label="Data loading and external tables的直接链接" title="Data loading and external tables的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="external-table-enhancements">External table enhancements<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#external-table-enhancements" class="hash-link" aria-label="External table enhancements的直接链接" title="External table enhancements的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Adds clearer restrictions and warnings when exchanging or attaching external tables. Writable external tables can no longer be used as partitions, and attaching readable external tables without validation now triggers a warning instead of requiring a no-op clause.</p>
+</li>
+<li>
+<p>Disables <code>SET DISTRIBUTED REPLICATED</code> for <code>ALTER EXTERNAL TABLE</code> to prevent misuse and ensure consistency.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="foreign-data-wrapper">Foreign data wrapper<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#foreign-data-wrapper" class="hash-link" aria-label="Foreign data wrapper的直接链接" title="Foreign data wrapper的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Improves performance and stability for <code>gpfdist</code> external tables. Adds TCP keepalive support for more reliable reads, and increases the default buffer size to enhance write throughput for writable external tables.</p>
+</li>
+<li>
+<p>ORCA now falls back to the planner for queries involving foreign partitions using <code>greenplum_fdw</code>, preventing crashes caused by incompatible execution behavior. Queries on non-partitioned foreign tables using <code>greenplum_fdw</code> remain supported by ORCA.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="high-availability-and-high-reliability">High availability and high reliability<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#high-availability-and-high-reliability" class="hash-link" aria-label="High availability and high reliability的直接链接" title="High availability and high reliability的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="backup-and-disaster-recovery">Backup and disaster recovery<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#backup-and-disaster-recovery" class="hash-link" aria-label="Backup and disaster recovery的直接链接" title="Backup and disaster recovery的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Improves archiver performance when handling many <code>.ready</code> files by reducing redundant directory scans. This change speeds up WAL archiving, especially when <code>archive_command</code> has been failing and many files have accumulated.</p>
+</li>
+<li>
+<p><code>gp_create_restore_point()</code> can only be executed on the Coordinator node. Calling this function on a segment node will result in an error. The function returns a structured record value, including the restore point name and LSN, which you can view directly by running <code>SELECT * FROM gp_create_restore_point()</code>.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="wal">WAL<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#wal" class="hash-link" aria-label="WAL的直接链接" title="WAL的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Improves WAL replication management by restricting a coordinator-specific tracking mechanism to the coordinator only. This change simplifies primary segment behavior and aligns replication practices more closely across segments. No functional change for users, but helps reduce unnecessary complexity in WAL retention logic.</p>
+</li>
+<li>
+<p>Enhances WAL retention logic to improve reliability of incremental recovery using <code>pg_rewind</code>. Physical replication slots now retain WAL files up to the last common checkpoint, reducing risk of missing WAL during recovery. This change also simplifies the underlying logic and adds test coverage for WAL recycling.</p>
+</li>
+<li>
+<p>Switches WAL replication connections to use the standard libpq protocol instead of a legacy internal one. This improves compatibility and reliability of replication behavior. Also fixed test failures and improved error handling for replication connections.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="security">Security<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#security" class="hash-link" aria-label="Security的直接链接" title="Security的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="db-operations">DB Operations<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#db-operations" class="hash-link" aria-label="DB Operations的直接链接" title="DB Operations的直接链接">​</a></h4>
+<ul>
+<li>
+<p><code>REFRESH MATERIALIZED VIEW CONCURRENTLY</code> runs all internal operations in the correct security context to prevent potential privilege escalation. This change ensures safer execution by restricting operations to the appropriate permission level.</p>
+</li>
+<li>
+<p>Improves internal handling of new <code>aoseg</code> and <code>aocsseg</code> tuples by aligning tuple freezing behavior with other catalog operations. This change enhances consistency with upstream PostgreSQL practices and removes the need for <code>CatalogTupleFrozenInsert</code>.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="system-processes">System processes<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#system-processes" class="hash-link" aria-label="System processes的直接链接" title="System processes的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Orphaned file checks now exclude idle sessions during safety validation. This prevents unnecessary errors when persistent connections from services are active, allowing the detection process to complete successfully.</p>
+</li>
+<li>
+<p>Adds a safety check in backend signal handlers to ensure signals are handled by the correct process. This prevents unintended shared memory access by child processes and improves overall process isolation and stability.</p>
+</li>
+<li>
+<p>Improves process safety by preventing child processes spawned via <code>system()</code> from calling <code>proc_exit()</code>. This avoids potential corruption of shared memory structures and ensures only the parent process performs cleanup operations.</p>
+</li>
+<li>
+<p>Removes the permission check for <code>cpu.pressure</code> when using <code>gp_resource_manager='group-v2'</code>. This prevents startup failures on systems where PSI is disabled, without affecting resource management functionality.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="replicationmirrorless-clusters">Replication/Mirrorless clusters<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#replicationmirrorless-clusters" class="hash-link" aria-label="Replication/Mirrorless clusters的直接链接" title="Replication/Mirrorless clusters的直接链接">​</a></h4>
+<ul>
+<li>Improves replication error reporting by setting persistent <code>WalSndError</code> when a replication slot is invalidated. This ensures accurate error visibility in <code>gp_stat_replication</code>.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="permission-management">Permission management<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#permission-management" class="hash-link" aria-label="Permission management的直接链接" title="Permission management的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Strengthens security by rejecting extension schema or owner substitutions containing potentially unsafe characters like <code>$</code>, <code>'</code>, or <code>\</code>. This prevents SQL injection in extension scripts and protects against privilege escalation in certain non-bundled extensions.</p>
+</li>
+<li>
+<p>Creating or assigning roles to the <code>system_group</code> resource group now results in an error, as this group is reserved for internal system processes only.</p>
+</li>
+<li>
+<p>Reverts the restriction requiring superuser privileges to set the <code>gp_resource_group_bypass</code> GUC. This allows applications like GPCC to function more easily while still limiting resource impact.</p>
+</li>
+<li>
+<p>Altering the <code>mpp_execute</code> option of a foreign server or wrapper is now disallowed to prevent inconsistencies in foreign table distribution policies. Changing these options previously could result in outdated cached plans and incorrect query execution. This update ensures plan correctness by enforcing cache invalidation only when appropriate.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="pgcrypto">pgcrypto<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#pgcrypto" class="hash-link" aria-label="pgcrypto的直接链接" title="pgcrypto的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Adds support for FIPS mode in <code>pgcrypto</code>, controlled by a GUC. This allows Cloudberry to operate in FIPS-compliant environments when linked with a supported FIPS-enabled OpenSSL version. Certain ciphers are disabled in this mode to comply with FIPS requirements.</p>
+</li>
+<li>
+<p><code>pgcrypto</code> now allows enabling FIPS mode even on systems where FIPS is not pre-enabled by the OS or environment. This change removes the dependency on <code>FIPS_mode()</code> checks, offering more flexibility in managing FIPS compliance through the database.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="resource-management">Resource management<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#resource-management" class="hash-link" aria-label="Resource management的直接链接" title="Resource management的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="resource-group-management">Resource group management<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#resource-group-management" class="hash-link" aria-label="Resource group management的直接链接" title="Resource group management的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Renames the <code>memory_limit</code> parameter to <code>memory_quota</code> in <code>CREATE/ALTER RESOURCE GROUP</code> to clarify its meaning and unit.</p>
+</li>
+<li>
+<p>Adds a new system view <code>gp_toolkit.gp_resgroup_status_per_segment</code> to monitor memory usage per resource group on each segment. This view helps database administrators track real-time vmem consumption (in MB) when resource group-based resource management is enabled.</p>
+</li>
+<li>
+<p>Improves logging behavior when memory usage reaches Vmem or resource group limits. The system now prints log messages directly to stderr to avoid stack overflow errors during allocation failures.</p>
+</li>
+<li>
+<p>Removes unnecessary permission check for <code>cpu.pressure</code> when using the <code>group-v2</code> resource manager. This prevents startup failures on systems where PSI is not enabled, improving compatibility across Linux distributions.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="logging-and-monitoring">Logging and monitoring<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#logging-and-monitoring" class="hash-link" aria-label="Logging and monitoring的直接链接" title="Logging and monitoring的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Adds additional log messages for GDD backends to help investigate memory-related issues. These logs provide better visibility into backend behavior during high memory usage scenarios.</p>
+</li>
+<li>
+<p>Adds a log ignore rule for "terminating connection" messages to reduce noise in test outputs. This helps avoid unnecessary diffs in CI for tests that involve connection termination.</p>
+</li>
+<li>
+<p>Adds more verbose logging to <code>ResCheckSelfDeadlock()</code>.</p>
+</li>
+<li>
+<p>Logs queue IDs and portal IDs in resource queue logs.</p>
+</li>
+<li>
+<p>Dumps more information when releasing resource queue locks to aid in troubleshooting and monitoring.</p>
+</li>
+<li>
+<p>Uses <code>ERROR</code> for dispatcher liveness checks.</p>
+</li>
+<li>
+<p>Enhances logging for dispatch connection liveness checks to improve clarity during connection failures. Logs now include more accurate error messages based on socket state and system errors.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="platform-compatibility-and-build">Platform compatibility and build<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#platform-compatibility-and-build" class="hash-link" aria-label="Platform compatibility and build的直接链接" title="Platform compatibility and build的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Improves <code>gp_sparse_vector</code> compatibility with ARM platforms by fixing type handling in serialization logic. This ensures consistent behavior across different architectures.</p>
+</li>
+<li>
+<p>Adds support for <code>sigaction()</code> on Windows to align signal handling behavior with other platforms. This reduces platform-specific differences and improves code consistency.</p>
+</li>
+<li>
+<p>Updates ACL mode type in ORCA to match the parser's definition, ensuring consistent type usage.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="system-views-and-statistics">System views and statistics<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#system-views-and-statistics" class="hash-link" aria-label="System views and statistics的直接链接" title="System views and statistics的直接链接">​</a></h4>
+<ul>
+<li>
+<p>Improves join cardinality estimation for projected columns that preserve the number of distinct values (NDVs), such as additions or subtractions with constants. This allows the optimizer to use underlying column histograms for more accurate estimates, improving plan quality for queries with scalar projections in join conditions.</p>
+</li>
+<li>
+<p>Increases precision for frequency and NDV values in ORCA when processing metadata population scripts (MDPs). This change ensures consistent behavior between MDPs and live database queries, reducing discrepancies caused by rounding small values.</p>
+</li>
+<li>
+<p>ORCA now considers null value skew when costing redistribute motions, improving plan accuracy for queries involving columns with many nulls. This helps avoid performance issues caused by data being unevenly distributed across segments.</p>
+</li>
+<li>
+<p>ORCA now supports extended statistics to improve cardinality estimation for queries with correlated columns. This allows the optimizer to use real data-driven correlation factors instead of relying on arbitrary GUC settings, leading to more accurate query plans.</p>
+</li>
+<li>
+<p>Introduces <code>gp_log_backend_memory_contexts</code> to log memory contexts across segments, with optional targeting by content ID. This enhances observability and helps diagnose memory issues in distributed queries.</p>
+</li>
+<li>
+<p>ORCA now supports statistics derivation for predicates involving different time-related data types, such as date and timestamp. This improves plan accuracy and performance for queries comparing mixed temporal types.</p>
+</li>
+<li>
+<p>Autostats now uses <code>SKIP LOCKED</code> for <code>ANALYZE</code> operations to avoid blocking on locks, reducing the risk of deadlocks and improving predictability. This behavior is enabled by default and can be controlled using the <code>gp_autostats_lock_wait</code> GUC.</p>
+</li>
+<li>
+<p>ORCA now supports <code>STATS_EXT_NDISTINCT</code> extended statistics for estimating cardinality on correlated columns. This improves accuracy for queries using <code>GROUP BY</code> or <code>DISTINCT</code> on such columns.</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="network-connections">Network connections<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#network-connections" class="hash-link" aria-label="Network connections的直接链接" title="Network connections的直接链接">​</a></h4>
+<ul>
+<li>Marks <code>gp_reject_internal_tcp_connection</code> as defunct to improve reliability of internal QD-to-entry DB connections. These connections over TCP/IP are now treated as authenticated by default, preventing authentication errors caused by <code>pg_hba.conf</code> settings.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tools-and-utilities">Tools and utilities<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#tools-and-utilities" class="hash-link" aria-label="Tools and utilities的直接链接" title="Tools and utilities的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="analyzedb">analyzedb<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#analyzedb" class="hash-link" aria-label="analyzedb的直接链接" title="analyzedb的直接链接">​</a></h4>
+<ul>
+<li><code>analyzedb</code> now includes materialized views in its list of tables to analyze. This improves the performance immediately after analysis.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="gpexpand">gpexpand<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#gpexpand" class="hash-link" aria-label="gpexpand的直接链接" title="gpexpand的直接链接">​</a></h4>
+<ul>
+<li><code>gpexpand</code> now includes a cluster health check to ensure all segments are up and in their preferred roles before proceeding. This prevents incorrect port assignments and avoids potential issues during expansion when nodes are not in a stable state.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="gp_toolkit">gp_toolkit<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#gp_toolkit" class="hash-link" aria-label="gp_toolkit的直接链接" title="gp_toolkit的直接链接">​</a></h4>
+<ul>
+<li>Added an update path for the <code>gp_toolkit</code> extension to version 1.6. This update renames the column <code>memory_limit</code> to <code>memory_quota</code> in the <code>gp_resgroup_config</code> view for improved clarity. Users can apply the update using <code>ALTER EXTENSION gp_toolkit UPDATE TO '1.6'</code>.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug fixes<a href="https://cloudberry.apache.org/zh/blog/whats-new-in-apache-cloudberry-2.0.0#bug-fixes" class="hash-link" aria-label="Bug fixes的直接链接" title="Bug fixes的直接链接">​</a></h2>
+<ul>
+<li>Fixed data loss caused by incorrect shared snapshot handling.</li>
+<li>Fixed memory corruption during AOCO ADD COLUMN abort.</li>
+<li>Fixed checkpoint WAL replay failure.</li>
+<li>Fixed incorrect results when using UNION for RECURSIVE_CTE.</li>
+<li>Fixed incorrect results from hash joins on char columns.</li>
+<li>Fixed incorrect results produced by WITH RECURSIVE queries.</li>
+<li>Fixed incorrect results when a REPLICATED table is unioned with a DISTRIBUTED table.</li>
+<li>Fixed incorrect results when the outer query had ORDER BY after a LATERAL subquery.</li>
+<li>Fixed incorrect behavior of DELETE with split update.</li>
+<li>Fixed incorrect results when using direct dispatch.</li>
+<li>Fixed memory leaks in ORCA and various components.</li>
+<li>Fixed long-running execution with bitmap indexes.</li>
+<li>Fixed redundant SORT enforcement on group aggregates.</li>
+<li>Fixed incorrect index position in target list in ExecTupleSplit.</li>
+<li>Fixed incorrect value in the cpu_usage column returned by <code>pg_resgroup_get_status()</code>.</li>
+<li>Fixed incorrect behavior of gp_toolkit.gp_move_orphaned_files.</li>
+<li>Fixed incorrect results in multi-stage aggregate queries.</li>
+<li>Fixed incorrect plan and output in multi-stage aggregate queries.</li>
+<li>Fixed incorrect reltuples value after VACUUM.</li>
+<li>Fixed incorrect index-&gt;reltuples value after VACUUM.</li>
+<li>Fixed a vulnerability where LDAP leaked user information.</li>
+<li>Fixed incorrect permissions warning on the pgpass file.</li>
+<li>Fixed incorrect handling of ONLY keyword for multiple tables in GRANT/REVOKE statements.</li>
+<li>Fixed incorrect permissions in resource management DDL.</li>
+<li>Fixed incorrect security context in REFRESH MATERIALIZED VIEW CONCURRENTLY.</li>
+<li>Fixed deadlock between coordinator and segments.</li>
+<li>Fixed race condition in CTE reader-writer communication.</li>
+<li>Fixed race condition when invalidating obsolete replication slots.</li>
+<li>Fixed deadlock by allowing concurrent creation of non-first indexes on AO tables.</li>
+<li>Fixed locking issue when opening range tables inside <code>ExecInitModifyTable()</code>.</li>
+<li>Fixed incorrect unlock mode in DefineRelation.</li>
+<li>Fixed incorrect locking in partition distribution policies.</li>
+<li>Fixed issues with rle_type when converting a table from AO to AOCO.</li>
+<li>Fixed incorrect handling of empty ranges and NULL values in BRIN indexes.</li>
+<li>Fixed incorrect handling of NULL values when merging BRIN summaries.</li>
+<li>Fixed incorrect TIDs order when building bitmap indexes.</li>
+<li>Fixed possible inconsistency between bitmap LOV table and its index.</li>
+<li>Fixed incorrect behavior of VACUUM in AO tables with indexes.</li>
+<li>Fixed incorrect handling of TOAST values for invisible AppendOptimized tuples during VACUUM.</li>
+<li>Fixed ORCA's invalid processing of nested SubLinks under aggregates.</li>
+<li>Fixed ORCA's invalid processing of nested SubLinks referenced in GROUP BY clauses.</li>
+<li>Fixed ORCA's invalid processing of nested SubLinks with GROUP BY attributes.</li>
+<li>Fixed incorrect predicate pushdown when using casted columns.</li>
+<li>Fixed incorrect join condition loss after pulling up sublinks to join nodes.</li>
+<li>Fixed incorrect hash-key generation for Redistribute Motion in multi-DQA expressions.</li>
+<li>Fixed incorrect plan generation for SEMI JOIN with RANDOM distributed tables.</li>
+<li>Fixed incorrect behavior of gp_stat_bgwriter.</li>
+<li>Fixed incorrect monitoring in pg_stat_slru.</li>
+<li>Fixed incorrect monitoring in gp_stat_progress_dtx_recovery.</li>
+<li>Fixed incorrect monitoring in pg_resgroup_get_status().</li>
+<li>Fixed incorrect monitoring in gp_toolkit.gp_resgroup_config.</li>
+<li>Fixed compilation issues on various platforms.</li>
+<li>Fixed documentation and comment typos.</li>
+<li>Fixed build system and Makefile issues.</li>
+<li>Fixed various memory leaks and resource management issues.</li>
+<li>Fixed various error handling and logging improvements.</li>
+<li>Fixed mismatched types.</li>
+<li>Fixed the ORCA preprocess step for queries with the Select-Project-NaryJoin pattern.</li>
+<li>Fixed the missing discard_output variable in shared scan node functions.</li>
+<li>Fixed the crash caused by running VACUUM AO_AUX_ONLY on an AO-partitioned table.</li>
+<li>Fixed an obvious memory leak in _bitmap_xlog_insert_bitmapwords().</li>
+<li>Fixed a memory leak in the merge join implementation.</li>
+<li>Fixed the issue where the token for user ID xxx did not exist.</li>
+<li>Fixed the issue where plan hints could not derive table descriptors.</li>
+<li>Fixed the issue where inject_fault suspend could not be canceled.</li>
+<li>Fixed fallback in debug builds due to scalars with invalid return types.</li>
+<li>Fixed relptr encoding of the base address.</li>
+<li>Fixed visimap consults for unique checks during UPDATE operations.</li>
+<li>Fixed the issue where external table location URIs containing | caused errors.</li>
+<li>Fixed handling of the time command output containing commas.</li>
+<li>Fixed a small overestimation of the output length of base64 encoding.</li>
+<li>Fixed gp_toolkit.__gp_aocsseg_history crash on non-AO columnar tables.</li>
+<li>Fixed a race condition between termination and resqueue wakeup.</li>
+<li>Fixed a statement leak involving self-deadlocks.</li>
+<li>Fixed the detection of child output columns when the parent is a UNION during join pruning.</li>
+<li>Fixed a query crash when using a negative memory_limit value in resource groups.</li>
+<li>Fixed issues in pgarch new directory-scanning logic.</li>
+<li>Fixed a memory leak in the FTS PROBE process.</li>
+<li>Fixed check_multi_column_list_partition_keys.</li>
+<li>Fixed a memory leak caught via ICW with memory check enabled.</li>
+<li>Fixed query hang and fallback issues involving CTEs on replicated tables.</li>
+<li>Fixed the unrecognized join type error with LASJ Not-In and network types.</li>
+<li>Fixed issues in upgrade_adapt.sql related to queries using WITH OIDS.</li>
+<li>Fixed the double declaration of check_ok() in pg_upgrade.h.</li>
+<li>Fixed logic error with subdirectories generated by pg_upgrade for internal files.</li>
+<li>Fixed a typo in the pg_upgrade file header.</li>
+<li>Fixed the bug where PL/Python functions caused the master process to reset.</li>
+<li>Fixed the Shared Scan hang issue involving initplans.</li>
+<li>Fixed motion toast error.</li>
+<li>Fixed a memory leak related to fsync in AO tables.</li>
+<li>Fixed CDatumSortedSet handling of empty arrays that caused errors in ORCA.</li>
+<li>Fixed ORCA returning incorrect column type modifier information.</li>
+<li>Fixed DbgStr output when printing DP structs in ORCA.</li>
+<li>Fixed the comment on performDtxProtocolPrepare.</li>
+<li>Fixed a memory leak in Dynamic Index, IndexOnly, and BitmapIndex scans during execution.</li>
+<li>Fixed the memory accounting bug when moving MemoryContext under another accounting node.</li>
+<li>Fixed the ALTER TABLE ALTER COLUMN TYPE issue that reuses an incorrect index.</li>
+<li>Fixed query fallback when a subquery is present within LEAST() or GREATEST().</li>
+<li>Fixed the typo in timestamp.</li>
+<li>Fixed unexpected warnings related to pg_stat_statements node types.</li>
+<li>Fixed the crash involving initplan in MPP.</li>
+<li>Fixed LeftJoinPruning pruning essential LEFT JOINs.</li>
+<li>Fixed the SET command that incorrectly sends DTX protocol commands.</li>
+<li>Fixed the segmentation fault in addOneOption().</li>
+<li>Fixed parallel_retrieve_cursor diffs.</li>
+<li>Fixed gpdiff.pl to ignore information when EXPLAIN ignores costs.</li>
+<li>Fixed the uninitialized-use warning in CTranslatorDXLToPlStmt.cpp.</li>
+<li>Fixed the bug where the LOCALE flag cannot be used with a string pattern.</li>
+<li>Fixed a typo in cdbmutate.c.</li>
+<li>Fixed CColRefSet debug printing.</li>
+<li>Fixed ORCA producing incorrect plans when handling SEMI JOIN with RANDOM distributed tables.</li>
+<li>Fixed orphaned temp tables on the coordinator.</li>
+<li>Fixed the segmentation fault caused by concurrent INSERT ON CONFLICT and DROP TABLE.</li>
+<li>Fixed redundant columns in a multi-stage aggregate plan.</li>
+<li>Fixed the import of ICU collations in pg_import_system_collations().</li>
+<li>Fixed the error: "Cannot add cell to table content: total cell count of XXX exceeded."</li>
+<li>Fixed orphaned temporary namespace catalog entries left on the coordinator.</li>
+<li>Fixed REFRESH MATERIALIZED VIEW on AO tables with indexes.</li>
+<li>Fixed the use of PORTNAME in the gp_toolkit Makefile.</li>
+<li>Fixed pg_stat_activity display for bypassed and unassigned queries.</li>
+<li>Fixed the recursive CTE MergeJoin that involved a motion on WTS.</li>
+<li>Fixed the column width display for partitioned tables.</li>
+<li>Fixed the LDAP crash when ldaptls=1 and ldapscheme is not set.</li>
+<li>Fixed the gpstop pipeline flakiness after the referenced change.</li>
+<li>Fixed the ANALYZE bug in expand_vacuum_rels.</li>
+<li>Fixed the compilation error.</li>
+<li>Fixed the ORCA crash due to improper colref mapping with CTEs.</li>
+<li>Fixed the bug where gpload insert mode was not included in a transaction.</li>
+<li>Fixed the bug where resgroup total wait time was always zero.</li>
+<li>Fixed the gpcheckcat error against pg_description.</li>
+<li>Fixed flakiness caused by waiting for a different number of fault triggers.</li>
+<li>Fixed the bug involving RelabelType in the GROUP BY clause.</li>
+<li>Fixed the planner error with multiple copies of an AlternativeSubPlan.</li>
+<li>Fixed the issue with bitmap indexes.</li>
+<li>Fixed the bug in HashAgg related to selective-column-spilling logic.</li>
+<li>Fixed the bug in disk-based hash aggregation.</li>
+<li>Fixed the pipeline stall issue in LookupTupleHashEntryHash().</li>
+<li>Fixed the use of version in ArgumentParser, which is deprecated.</li>
+<li>Fixed the use of BaseException.message, which has been deprecated since Python 2.6.</li>
+<li>Fixed the case pg_rewind_fail_missing_xlog.</li>
+<li>Fixed the compiler warning for gcc-12.</li>
+<li>Fixed support for the DEFERRABLE keyword on primary and unique keys.</li>
+<li>Fixed the unlocking of pruned partitions in partitioned tables.</li>
+<li>Fixed the crash in ORCA involving skip-level correlated queries.</li>
+<li>Fixed the removal of Assert statements in release builds.</li>
+<li>Fixed the typo in comments: JOIN_SEMI_DEDUP/JOIN_SEMI_DEDUP_REVERSE.</li>
+<li>Fixed the issue where REORGANIZE=TRUE did not redistribute randomly-distributed tables.</li>
+<li>Fixed the core dump caused by concurrent updates on partition tables in DynamicScan.</li>
+<li>Fixed the typo: ANALZE to ANALYZE.</li>
+<li>Fixed the issue where cgroup v1 cpu_quota_us cannot be larger than its parent's value.</li>
+<li>Fixed indentation and trailing whitespace in UDFs in resgroup/resgroup_auxiliary_tools_v1.</li>
+<li>Fixed the name of cpu_hard_quota_limit in resgroup_syntax.sql.</li>
+<li>Fixed multi-row DEFAULT handling in INSERT ... SELECT rules.</li>
+<li>Fixed invalid function references in several comments.</li>
+<li>Fixed the bug where COPY FORM does not throw ERROR: extra data after last expected column.</li>
+<li>Fixed the issue where file .204800 was not being checked in ao_foreach_extent_file.</li>
+<li>Fixed the issue of incorrectly incrementing the command counter.</li>
+<li>Fixed the coordinator crash in MPPnoticeReceiver.</li>
+<li>Fixed the dangling pointer in ExecDynamicIndexScan().</li>
+<li>Fixed the ORCA bug that incorrectly removed required redistribution motion when using GROUP BY over gp_segment_id.</li>
+<li>Fixed header handling in url_curl.c.</li>
+<li>Fixed ao_filehandler to support new attnum to filenum mapping changes.</li>
+<li>Fixed pg_aocsseg to work with attnum to filenum mapping.</li>
+<li>Fixed a comment in pg_dump.</li>
+<li>Fixed the ORCA build break.</li>
+<li>Fixed the gpconfig SSH retry undefined parameter issue.</li>
+<li>Fixed the stale gp_default_storage_options comment.</li>
+<li>Fixed the bug: unrecognized node type: 147.</li>
+<li>Fixed spelling errors identified by lintian.</li>
+<li>Fixed the bypass catalog unit test.</li>
+<li>Fixed erroneous Valgrind markings in AllocSetRealloc.</li>
+<li>Fixed the legacy bug in the DatabaseFrozenIds lock.</li>
+<li>Fixed the mirror checkpointer error on the ALTER DATABASE query.</li>
+<li>Fixed the bug: get_ao_compression_ratio() failed on root partitioned tables with AO children.</li>
+<li>Fixed the issue where InterruptHoldoffCount was not being reset.</li>
+<li>Fixed gpexpand failure caused by an event trigger.</li>
+<li>Fixed missing redistribute for CTAS or INSERT INTO on randomly distributed tables when using ORCA.</li>
+<li>Fixed the double free of remapper-&gt;typmodmap in TeardownUDPIFCInterconnect().</li>
+<li>Fixed the bug in the upstream-merged COMMIT AND CHAIN feature.</li>
+<li>Fixed inconsistency between gp_fastsequence row and index after a crash.</li>
+<li>Fixed the typo allocatd to allocated.</li>
+<li>Fixed the error: unrecognized node type: 145 in transformExpr.</li>
+<li>Fixed build error caused by unused variable.</li>
+<li>Fixed the issue where the distribution key was missing when creating a stage table.</li>
+<li>Fixed the regex for etc/environment.d.</li>
+<li>Fixed the string comparison warning.</li>
+<li>Fixed obsolete references to SnapshotNow in comments.</li>
+<li>Fixed pull-up error when the target list contains a RelabelType node.</li>
+<li>Fixed the issue where index DDL operations were recorded in QEs' pg_last_stat_operation.</li>
+<li>Fixed two compiler warnings.</li>
+<li>Fixed the wrong value of maxAttrNum in TupleSplitState.</li>
+<li>Fixed the bug of incorrect index position in target list in ExecTupleSplit.</li>
+<li>Fixed the format error of the library name on Mac M1.</li>
+<li>Fixed the pg_resgroup_get_status_kv() function.</li>
+<li>Fixed interconnect bugs in ic_proxy_ibuf_push().</li>
+<li>Fixed memory leaks in auto_explain.</li>
+<li>Fixed ic_proxy compilation when HOST_NAME_MAX is unavailable.</li>
+<li>Fixed duplicate filters caused by reversed operator argument order.</li>
+<li>Fixed pg_rewind when the log file is a symbolic link.</li>
+<li>Fixed and enabled 64-bit bitmapset and updated visimap.</li>
+<li>Fixed the hang caused by multi-DQA with filters in the planner.</li>
+<li>Fixed the bogus ORCA plan that incorrectly joins a CTE and a REPLICATED table.</li>
+<li>Fixed the error in ATSETAM when applied to ao_column with a dropped column.</li>
+<li>Fixed the LWLockHeldByMe assert failure in SharedSnapshotDump.</li>
+<li>Fixed the KeepLogSeg() unit test.</li>
+<li>Fixed the race condition when invalidating obsolete replication slots.</li>
+<li>Fixed the uninitialized value in segno calculation.</li>
+<li>Fixed issues in the invalidation logic for obsolete replication slots.</li>
+<li>Fixed checkpoint signalling.</li>
+<li>Fixed memory overrun when querying pg_stat_slru.</li>
+<li>Fixed the bug where ORCA fails to decorrelate subqueries ordered by outer references.</li>
+<li>Fixed unused variable compile warnings.</li>
+<li>Fixed the bug where NestLoop join fails to materialize the inner child in some cases.</li>
+<li>Fixed COPY execution via FDW on coordinator as executor.</li>
+<li>Fixed inFunction usage for auto_stats in CTAS.</li>
+<li>Fixed a compiler warning.</li>
+<li>Fixed the syntax error with CREATE MATERIALIZED VIEW.</li>
+<li>Fixed the issue preventing temporary table creation LIKE existing tables with comments.</li>
+<li>Fixed and rewrote IndexOpProperties API.</li>
+<li>Removed redundant Get/SetStaticPruneResult usage.</li>
+<li>Fixed EPQ handling for DML operations.</li>
+<li>Fixed gpcheckperf failure when using -V with -f option.</li>
+<li>Fixed possible mirror startup failure triggered by FTS promotion.</li>
+<li>Fixed the parallel retrieve cursor issue when selecting transient record types.</li>
+<li>Fixed the resource management DDL warning: unrecognized node type when log_statement='ddl'</li>
+<li>Fixed the resgroup init error when many cores are present in cpuset.cpus.</li>
+<li>Fixed resqueue malfunction when using JDBC extended protocol.</li>
+<li>Fixed the missing LOCKING CLAUSE on foreign tables when ORCA is enabled.</li>
+<li>Fixed the test_consume_xids behavior where it consumes one more transaction ID than expected.</li>
+<li>Fixed the ONLY keyword handling for multiple tables in GRANT/REVOKE statements.</li>
+<li>Fixed the regression test to ignore memory usage values in JSON format EXPLAIN output.</li>
+<li>Fixed relcache lookup in ORCA when selecting from sequences.</li>
+<li>Fixed missing WAL files required by pg_rewind.</li>
+<li>Fixed the gp_dqa test to explicitly ANALYZE tables.</li>
+<li>Fixed the crash of AggNode in the executor caused by an ORCA plan.</li>
+<li>Fixed the resource group cpuset test case.</li>
+<li>Fixed the compiler warning caused by gpfdist with compressed external tables.</li>
+<li>Fixed link issues on macOS and Windows.</li>
+<li>Fixed failure when DynamicSeqScan contains a SubPlan.</li>
+<li>Fixed the error: cache lookup failed for type 0.</li>
+<li>Fixed the multi-level correlated subquery bug.</li>
+<li>Fixed checkpoint WAL replay failure.</li>
+<li>Fixed the check for BufFileRead() in ExecHashJoinGetSavedTuple().</li>
+<li>Fixed the test extension to allow executing SQL code inside a Portal.</li>
+<li>Fixed resgroup view test cases.</li>
+<li>Fixed incorrect DISTKEY assignment when copying partitions on segments.</li>
+<li>Fixed ic-proxy mis-disconnecting addresses after reloading the config file.</li>
+<li>Fixed the gpcheckcat check on partition distribution policies.</li>
+<li>Fixed colid remapping in disjunctive constraints.</li>
+<li>Fixed the Makefile by removing the tablespace-step target from all.</li>
+<li>Fixed CBitSet intersection logic in ORCA.</li>
+<li>Fixed the query preprocessor for nested Select-Project-NaryJoin patterns.</li>
+<li>Fixed incorrect unlock mode in DefineRelation.</li>
+<li>Fixed the upgrade process for external tables with dropped columns.</li>
+<li>Fixed the formatting issue in SECURITY.md.</li>
+<li>Fixed gp_gettmid to return the correct startup timestamp.</li>
+<li>Fixed the gpload regression test failure when the OS user is not gpadmin.</li>
+<li>Fixed the compiler warning in appendonlyblockdirectory.c.</li>
+<li>Fixed missing reloptions in partition roots created using Cloudberry syntax.</li>
+<li>Fixed the crash when calling get_ao_compression_ratio on HEAP tables.</li>
+<li>Fixed incorrect sortOp and eqOp values generated by IsCorrelatedEqualityOpExpr.</li>
+<li>Fixed the dependency bug involving minirepro and materialized views.</li>
+<li>Fixed recursion handling in ALTER TABLE ... ENABLE/DISABLE TRIGGER.</li>
+<li>Fixed SPE plans to display Partitions selected: 1 (out of 5).</li>
+<li>Fixed incorrect hash-key generation for Redistribute Motion when creating paths for multi-DQA expressions.</li>
+<li>Removed gp_enable_sort_distinct and noduplicates optimizations.</li>
+<li>Fixed gpinitsystem Behave tests that use environment variables.</li>
+<li>Fixed false alarms in gpcheckcat for pg_default_acl.</li>
+<li>Fixed gpinitsystem failure with custom locale settings.</li>
+<li>Fixed a panic in the greenplum_fdw test.</li>
+<li>Fixed the failure in bitmap index null-array condition.</li>
+<li>Fixed the compilation warning in gram.y.</li>
+<li>Fixed multiple issues related to DistributedTransaction handling.</li>
+<li>Fixed compile-time warnings in pg_basebackup code.</li>
+<li>Fixed gplogfilter to correctly generate CSV output.</li>
+<li>Fixed the assert in the OpExecutor node.</li>
+<li>Fixed improper copying of group statistics in ORCA.</li>
+<li>Fixed error reporting after ioctl() call in pg_upgrade --clone mode.</li>
+<li>Fixed replay of CREATE DATABASE records on standby.</li>
+<li>Fixed a minor memory leak in pg_dump.</li>
+<li>Fixed parallel restore of foreign keys to partitioned tables.</li>
+<li>Fixed the issue where the pg_appendonly entry was not removed during AO-to-HEAP table conversion.</li>
+<li>Fixed assertion failure and segmentation fault in the backup code.</li>
+<li>Fixed fallback behavior for non-default collations.</li>
+<li>Fixed the subtransaction test for Python 3.10.</li>
+<li>Fixed Windows client compilation of libpgcommon.</li>
+<li>Fixed compiler warnings introduced by the Dynamic Scan commit.</li>
+<li>Fixed the issue where CREATE OR REPLACE TRANSFORM failed.</li>
+<li>Fixed compiler warnings for non-assert builds.</li>
+<li>Fixed lock assertions in dshash.c.</li>
+<li>Fixed \watch interaction with libedit on C.</li>
+</ul>]]></content>
+        <author>
+            <name>Apache Cloudberry</name>
+        </author>
+        <category label="Release" term="Release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache Cloudberry (Incubating) 2.0.0 Released]]></title>
         <id>https://cloudberry.apache.org/zh/blog/announce-apache-cloudberry-2.0.0</id>
