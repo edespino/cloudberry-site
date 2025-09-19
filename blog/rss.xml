@@ -4,10 +4,24 @@
         <title>Apache Cloudberry (Incubating) is one advanced and mature open-source MPP (Massively Parallel Processing) databases available.</title>
         <link>https://cloudberry.apache.org/blog</link>
         <description>Apache Cloudberry (Incubating) Blog</description>
-        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Welcoming Xun Gong as a New Apache Cloudberry Committer]]></title>
+            <link>https://cloudberry.apache.org/blog/welcoming-xungong-as-a-new-apache-cloudberry-committer</link>
+            <guid>https://cloudberry.apache.org/blog/welcoming-xungong-as-a-new-apache-cloudberry-committer</guid>
+            <pubDate>Thu, 18 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Becoming a committer demonstrates a strong commitment to the community.]]></description>
+            <content:encoded><![CDATA[<p>We're excited to welcome Xun Gong (GitHub ID: gongxun0928) as Apache Cloudberry's newest committer! 🎉</p>
+<p>Xun has been a valuable contributor to the project, focusing on performance improvements and system reliability. His work spans query optimization, bug resolution, and enhancing core database features. Check out his contributions: <a href="https://github.com/apache/cloudberry/commits?author=gongxun0928" target="_blank" rel="noopener noreferrer">Xun's GitHub Activity</a>.</p>
+<p>What sets Xun apart is his thoughtful approach to code reviews and his ability to identify optimization opportunities that benefit the entire community. He brings both technical depth and a collaborative spirit that strengthens our development process.</p>
+<p>Becoming a committer is a recognition of both Xun's past contributions and the community's trust in his continued involvement. Committers play an important role in shaping the project by reviewing and merging contributions, participating in design decisions, and helping guide the project's growth.</p>
+<p>Please join us in congratulating Xun on this well-deserved recognition. We look forward to his continued contributions and collaboration within the Apache Cloudberry community!</p>
+<p>You can find the official announcement on the <a href="https://lists.apache.org/thread/vn8k3dy2j11nv5bk3kryhjowv20ct73n" target="_blank" rel="noopener noreferrer">Apache mailing list</a>.</p>]]></content:encoded>
+            <category>Announcement</category>
+        </item>
         <item>
             <title><![CDATA[What's New in Apache Cloudberry 2.0.0]]></title>
             <link>https://cloudberry.apache.org/blog/whats-new-in-apache-cloudberry-2.0.0</link>
